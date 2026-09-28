@@ -1,0 +1,922 @@
+{
+  "schema": "jy14-native-resource-catalog/v1",
+  "runtime_profile": "jy14-headless-macos-11.4.2",
+  "scope": "private-local-use-only",
+  "resources": {
+    "mask/circle": {
+      "source": "@home/Movies/JianyingPro/User Data/Cache/effect/82432977/3ab1c47350d987c8ad415497e020a38b",
+      "files": {
+        "amazingfeature/ImageBusinessSlider.json": {
+          "sha256": "edb3dc39e93b7782fcccb4693e87809a39a3f7132f58a94d29db9d77d0e78433",
+          "size": 33
+        },
+        "amazingfeature/LuaRTTI.MarkGen.lua": {
+          "sha256": "92c21dcd89568286f774729df77109e6cb409920e9628f7ee1aff8fd804f72c3",
+          "size": 198
+        },
+        "amazingfeature/content.json": {
+          "sha256": "0a5224a6dd9b0523bd72678a5dc08133251260be8e3a37d2cf33f12badafe234",
+          "size": 217
+        },
+        "amazingfeature/effects/lumi_circle_mask/lua/ImageBusinessSlider.lua": {
+          "sha256": "cf2de7028500c626d856db95018799e01e56da610b288caa5d6f6ea838f90427",
+          "size": 777
+        },
+        "amazingfeature/effects/lumi_circle_mask/lua/Process.lua": {
+          "sha256": "1b2f57e8d577925a1a83f7a8da3e445e18796a47d9b6b564a86a2d3a0a4a27dd",
+          "size": 3847
+        },
+        "amazingfeature/effects/lumi_circle_mask/material/fxaa.material": {
+          "sha256": "f8c23b6315956de269b47ed4e6ff65b0af289109159a364911d8ae7281f0642f",
+          "size": 686
+        },
+        "amazingfeature/effects/lumi_circle_mask/material/picture.material": {
+          "sha256": "b59bb0542054e587e9da44b88135c8119c05d24d7d3dba9054e8edf05866e86a",
+          "size": 743
+        },
+        "amazingfeature/effects/lumi_circle_mask/mesh/SP_Quad.mesh": {
+          "sha256": "0c3c40259eada34798e0dd3f1dd57f52c9961977fbb5d7b7c114dd1167269472",
+          "size": 1043
+        },
+        "amazingfeature/effects/lumi_circle_mask/rt/NewScreenRT.rt": {
+          "sha256": "af8e8b1758bfe4a2e7c8d2eed2c2e34ff165597802a35f1710bdd87864785ba8",
+          "size": 586
+        },
+        "amazingfeature/effects/lumi_circle_mask/xshader/Fxaa.frag": {
+          "sha256": "2e551e344476e2e2459d9c71d3277d713edebbb1bd9e079d36adfa53677461c6",
+          "size": 11532
+        },
+        "amazingfeature/effects/lumi_circle_mask/xshader/Fxaa.vert": {
+          "sha256": "8ecb57c14712af005b5584608f923d9296f7e8e7dec9be03d6dd21bd73ab37c0",
+          "size": 180
+        },
+        "amazingfeature/effects/lumi_circle_mask/xshader/Fxaa.xshader": {
+          "sha256": "d5ed8c14d66b60206e92dcfe3b3a6a4038b2eafb0d7aa9b812a70a1a2a254ee3",
+          "size": 2283
+        },
+        "amazingfeature/effects/lumi_circle_mask/xshader/picture.frag": {
+          "sha256": "d5322c4f7ae90284a68706941bde438ac9e1fa8a634b5ed9f150e77561a373ce",
+          "size": 977
+        },
+        "amazingfeature/effects/lumi_circle_mask/xshader/picture.vert": {
+          "sha256": "7eacb261d060fe51c7b19617028e031cb0ad67ca37e25e3f3afe9d37e1decfe9",
+          "size": 483
+        },
+        "amazingfeature/effects/lumi_circle_mask/xshader/picture.xshader": {
+          "sha256": "c88eba651cb4e6b5c1b8bfbea2725194c70cfbb6c9d28ba714aae37a54b7254d",
+          "size": 1404
+        },
+        "amazingfeature/js-meta.json": {
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "size": 2
+        },
+        "amazingfeature/lua/ImageBusinessSlider.lua": {
+          "sha256": "cf2de7028500c626d856db95018799e01e56da610b288caa5d6f6ea838f90427",
+          "size": 777
+        },
+        "amazingfeature/lua/LumiFamily/LumiManager.lua": {
+          "sha256": "59651651476e6cb435452ede1ac4e9e2a7003ac7832692df77c7de2abc72eb75",
+          "size": 4898
+        },
+        "amazingfeature/lua/LumiFamily/LumiObjectExtension.lua": {
+          "sha256": "cd4295455c9c8ad7c5c1d31e8c128b8d581ceaad2227315e5c9b8c5f01882423",
+          "size": 14607
+        },
+        "amazingfeature/lua/LumiFamily/LumiParamsSetter.lua": {
+          "sha256": "f40b8f07255e9d1c62981ea943e1e5a1fe1ef54a587c5d92e8a3f0980949a2e3",
+          "size": 1204
+        },
+        "amazingfeature/lua-meta.json": {
+          "sha256": "1422e104e41c420071cd894f27615539e62b9019b8c7ed86374a9df442ac6e8a",
+          "size": 3043
+        },
+        "amazingfeature/main.scene": {
+          "sha256": "819f3a3fbc23b813f8895e1ca3f77c3015503358174ff0ee6e2f5d390d260776",
+          "size": 5225
+        },
+        "amazingfeature/prefabs/circleMaskProcess.prefab": {
+          "sha256": "99ca82a546a37ae7fc9db0cf2277d8c125a09de90e1d55264a93de8a11436d93",
+          "size": 4061
+        },
+        "amazingfeature/rt/outputTex.rt": {
+          "sha256": "128b3ef869feaaa881f462592e335bc0b667afae14aa0c94e5629dd61b9b7c83",
+          "size": 527
+        },
+        "amazingfeature/scene.config": {
+          "sha256": "10e224fdb524112c2aac028710ee79a83db0bc59bddb9723a3477ccbb549e265",
+          "size": 320
+        },
+        "amazingfeature/sticker.config": {
+          "sha256": "c2e398fb02d37ea98d2dffe986c47975e76b3fff8d7df2085986b10eb07b48d9",
+          "size": 300
+        },
+        "config.json": {
+          "sha256": "5fe961c50ad139dc256dc2dbcedcc08bd27a5ba22d960e4af9cc46bb1721ade8",
+          "size": 245
+        }
+      },
+      "tree_sha256": "755f487494e041e0adceaff3c1a747b1238773c071fe3297d1911112cccd3946",
+      "material": {
+        "type": "mask",
+        "category": "video",
+        "category_name": "基础",
+        "category_id": "jichu",
+        "resource_id": "7356934080102928946",
+        "name": "圆形",
+        "resource_type": "circle",
+        "text_config": {
+          "align_type": 15
+        }
+      },
+      "aspect_ratio": 1,
+      "capture": "@home/Documents/Codex/2026-07-27/pyjianyingdraft/work/native-features-1142-20260914/capture-mask-circle/timeline.json",
+      "capture_sha256": "da33b91800b19d36c03ce4f4c103693c9918680f024329ccaee5bc89cd60f5b2"
+    },
+    "mask/rectangle": {
+      "source": "@home/Movies/JianyingPro/User Data/Cache/effect/82432980/02b8999168d121538a98ea59127483ef",
+      "files": {
+        "amazingfeature/LuaRTTI.MarkGen.lua": {
+          "sha256": "92c21dcd89568286f774729df77109e6cb409920e9628f7ee1aff8fd804f72c3",
+          "size": 198
+        },
+        "amazingfeature/content.json": {
+          "sha256": "d220f599098bbe56ff0a0aba518c8f108ed0974078919671b87b2a9e53d14ad8",
+          "size": 217
+        },
+        "amazingfeature/effects/lumi_rectangle_mask/lua/Process.lua": {
+          "sha256": "b55bf55b845206cf867ccf9cabb83212890d63c3f76f285312109dbd520be4f2",
+          "size": 5633
+        },
+        "amazingfeature/effects/lumi_rectangle_mask/material/picture.material": {
+          "sha256": "9e3a7c6dfad4a1b0525c0c18c30da91bc7734002ac72e622288e8c4ad7d57a03",
+          "size": 957
+        },
+        "amazingfeature/effects/lumi_rectangle_mask/mesh/SP_Quad.mesh": {
+          "sha256": "8cb9e09decaad4c3eb863342cfbf1791dfde8a19b9a8ccac85a0d2eb8f27dd92",
+          "size": 1043
+        },
+        "amazingfeature/effects/lumi_rectangle_mask/rt/outputTex.rt": {
+          "sha256": "56bb1a6e27cbc2011559cb0f40eef5941240398b9486b1800db14b918a84491d",
+          "size": 527
+        },
+        "amazingfeature/effects/lumi_rectangle_mask/xshader/picture.frag": {
+          "sha256": "8c765f14bb5e8b3c26b2edbab67138405c42df6e191f6f3db18b7d0b817dd2fa",
+          "size": 1476
+        },
+        "amazingfeature/effects/lumi_rectangle_mask/xshader/picture.vert": {
+          "sha256": "77afd2d147c8db65e28acb1c6b57de238a893c16523dbd6ccc2f9bc4b23e3d92",
+          "size": 639
+        },
+        "amazingfeature/effects/lumi_rectangle_mask/xshader/picture.xshader": {
+          "sha256": "33987bb7e7192dd72baa741d4b4f4772cd92c1cc9704c661eca7fd151c8c332c",
+          "size": 1410
+        },
+        "amazingfeature/js-meta.json": {
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "size": 2
+        },
+        "amazingfeature/lua/LumiFamily/LumiManager.lua": {
+          "sha256": "59651651476e6cb435452ede1ac4e9e2a7003ac7832692df77c7de2abc72eb75",
+          "size": 4898
+        },
+        "amazingfeature/lua/LumiFamily/LumiObjectExtension.lua": {
+          "sha256": "cd4295455c9c8ad7c5c1d31e8c128b8d581ceaad2227315e5c9b8c5f01882423",
+          "size": 14607
+        },
+        "amazingfeature/lua/LumiFamily/LumiParamsSetter.lua": {
+          "sha256": "f40b8f07255e9d1c62981ea943e1e5a1fe1ef54a587c5d92e8a3f0980949a2e3",
+          "size": 1204
+        },
+        "amazingfeature/lua-meta.json": {
+          "sha256": "edf443b1d7149c258c748691435219f2e86e541e2e52f8e77e81e463c8edadbf",
+          "size": 3043
+        },
+        "amazingfeature/main.scene": {
+          "sha256": "b434268f417659b428220d3c77ba89373838843d2f5efe6c05aa53aa36072af2",
+          "size": 4367
+        },
+        "amazingfeature/prefabs/rectangleMaskProcess.prefab": {
+          "sha256": "432606f44532518b685581a0eb68a7700980800ee7d9d1dc96e5485762bc81bd",
+          "size": 2434
+        },
+        "amazingfeature/rt/outputTex.rt": {
+          "sha256": "56bb1a6e27cbc2011559cb0f40eef5941240398b9486b1800db14b918a84491d",
+          "size": 527
+        },
+        "amazingfeature/sticker.config": {
+          "sha256": "c2e398fb02d37ea98d2dffe986c47975e76b3fff8d7df2085986b10eb07b48d9",
+          "size": 300
+        },
+        "config.json": {
+          "sha256": "ad262fc4e3cc1f840fead43886a381d094e6d3ca6dd795f251ebec7217912985",
+          "size": 243
+        }
+      },
+      "tree_sha256": "c8d500f2840e387e372744f6f44e1d2128e29c94df3dc482cf18a8de7d2f0ec6",
+      "material": {
+        "type": "mask",
+        "category": "video",
+        "category_name": "基础",
+        "category_id": "jichu",
+        "resource_id": "7356934318301647410",
+        "name": "矩形",
+        "resource_type": "rectangle",
+        "text_config": {
+          "align_type": 15
+        }
+      },
+      "aspect_ratio": 1,
+      "capture": "@home/Documents/Codex/2026-07-27/pyjianyingdraft/work/native-features-1142-20260914/capture-mask-rectangle/timeline.json",
+      "capture_sha256": "afd1be778cb2a212a516ed1eecff14556f06d7b2bced2646eae461d53a09b303"
+    },
+    "mask/line": {
+      "source": "@home/Movies/JianyingPro/User Data/Cache/effect/82432976/4c6a0ef5de6a844342d40330e00c59eb",
+      "files": {
+        "amazingfeature/LuaRTTI.MarkGen.lua": {
+          "sha256": "92c21dcd89568286f774729df77109e6cb409920e9628f7ee1aff8fd804f72c3",
+          "size": 198
+        },
+        "amazingfeature/content.json": {
+          "sha256": "859c0d0d6215fe5cbd5eda93ef60b0be739c477f9b6790362e2ab815433422b5",
+          "size": 216
+        },
+        "amazingfeature/effects/lumi_linear_mask/lua/Process.lua": {
+          "sha256": "bd10c4ce761cc4a4e869dfd89e68f2921258bcc4df6addb83a296c8de943709a",
+          "size": 3012
+        },
+        "amazingfeature/effects/lumi_linear_mask/material/picture.material": {
+          "sha256": "8dc324912ba51b45b54a08cd64a4ff4ba721eba0090843f1e99c7620cdf4e99e",
+          "size": 718
+        },
+        "amazingfeature/effects/lumi_linear_mask/mesh/SP_Quad.mesh": {
+          "sha256": "593d830c8812fbe25d317eb078db2ff5ba85679a0d7bdbbdeb9d50612f44c883",
+          "size": 1019
+        },
+        "amazingfeature/effects/lumi_linear_mask/xshader/picture.frag": {
+          "sha256": "010c45bac4222d85a5b0e80cf30cbfce81cc46140e419197d76b78ef8ae8b6e4",
+          "size": 802
+        },
+        "amazingfeature/effects/lumi_linear_mask/xshader/picture.vert": {
+          "sha256": "03ab13c590aebc62edb7463abdf717209394b34bdad90b688f983f8d49ae92c0",
+          "size": 345
+        },
+        "amazingfeature/effects/lumi_linear_mask/xshader/picture.xshader": {
+          "sha256": "a420bbd6e7833289b8f21fca7905e17a06cb9933b8b3d28e3c9d50b86c245669",
+          "size": 1330
+        },
+        "amazingfeature/js-meta.json": {
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "size": 2
+        },
+        "amazingfeature/lua/LumiFamily/LumiManager.lua": {
+          "sha256": "59651651476e6cb435452ede1ac4e9e2a7003ac7832692df77c7de2abc72eb75",
+          "size": 4898
+        },
+        "amazingfeature/lua/LumiFamily/LumiObjectExtension.lua": {
+          "sha256": "cd4295455c9c8ad7c5c1d31e8c128b8d581ceaad2227315e5c9b8c5f01882423",
+          "size": 14607
+        },
+        "amazingfeature/lua/LumiFamily/LumiParamsSetter.lua": {
+          "sha256": "f40b8f07255e9d1c62981ea943e1e5a1fe1ef54a587c5d92e8a3f0980949a2e3",
+          "size": 1204
+        },
+        "amazingfeature/lua-meta.json": {
+          "sha256": "cd12c1c7bf37e29be359b2f20f120af686ae8566a3bb35e76c68c9f4ff196af4",
+          "size": 3043
+        },
+        "amazingfeature/main.scene": {
+          "sha256": "f8cc528944b6aa668f64762476f3eeea950803a987f8b96f152fca67466ae8b7",
+          "size": 3632
+        },
+        "amazingfeature/prefabs/linearMaskProcess.prefab": {
+          "sha256": "806cab48d2d3faaaee45290f6bcd84f8a6305c964c8f73f3b3f561ab2ce341d2",
+          "size": 2351
+        },
+        "amazingfeature/rt/outputTex.rt": {
+          "sha256": "27fab53ded2de4ec431f09d17528298210185914966a91b6e6be4c1f501e3968",
+          "size": 510
+        },
+        "amazingfeature/scene.config": {
+          "sha256": "daa4eb8735bcabc75630989ef6f365d13fe937e57cf42b05b529f99fecc8409c",
+          "size": 288
+        },
+        "amazingfeature/sticker.config": {
+          "sha256": "c2e398fb02d37ea98d2dffe986c47975e76b3fff8d7df2085986b10eb07b48d9",
+          "size": 300
+        },
+        "config.json": {
+          "sha256": "e53aa219d9b6be48a5198d692c5df6094eeb18a6da27398743ca0e795c81c810",
+          "size": 245
+        }
+      },
+      "tree_sha256": "e548c277fb2a6e06739855160a985a676221b19e9c4a65b60c8d75df1aea3c29",
+      "material": {
+        "type": "mask",
+        "category": "video",
+        "category_name": "基础",
+        "category_id": "jichu",
+        "resource_id": "7356933362960831003",
+        "name": "线性",
+        "resource_type": "line",
+        "text_config": {
+          "align_type": 15
+        }
+      },
+      "aspect_ratio": 1,
+      "capture": "@home/Documents/Codex/2026-07-27/pyjianyingdraft/work/native-features-1142-20260914/capture-mask-line/timeline.json",
+      "capture_sha256": "66476899c0c8c1e10ccafcf87457386c24210bcf3072af29e312e739af4d702d"
+    },
+    "mask/mirror": {
+      "source": "@home/Movies/JianyingPro/User Data/Cache/effect/82432979/95ac211c99063c41b86b9b63742f4a6d",
+      "files": {
+        "amazingfeature/LuaRTTI.MarkGen.lua": {
+          "sha256": "92c21dcd89568286f774729df77109e6cb409920e9628f7ee1aff8fd804f72c3",
+          "size": 198
+        },
+        "amazingfeature/content.json": {
+          "sha256": "e37c69a41153807d98f804586fcc295c03f7fa762393edd4285c0b11b3974c7d",
+          "size": 215
+        },
+        "amazingfeature/effects/lumi_mirror_mask/lua/Process.lua": {
+          "sha256": "29f299e1ff2c1c2987a8fbb1a8293fd71302d1d1ac7a18056bf457773693742b",
+          "size": 3241
+        },
+        "amazingfeature/effects/lumi_mirror_mask/material/picture.material": {
+          "sha256": "f933ea824374ef1e1afff0869faad0173afcc73f5b95b4c0feead9c2181ce2eb",
+          "size": 743
+        },
+        "amazingfeature/effects/lumi_mirror_mask/mesh/SP_Quad.mesh": {
+          "sha256": "0c3c40259eada34798e0dd3f1dd57f52c9961977fbb5d7b7c114dd1167269472",
+          "size": 1043
+        },
+        "amazingfeature/effects/lumi_mirror_mask/xshader/picture.frag": {
+          "sha256": "991b6546fb9653dc9c213a2249f14fa156637361fc5f52ca6c8e4f6cdc5fc08b",
+          "size": 957
+        },
+        "amazingfeature/effects/lumi_mirror_mask/xshader/picture.vert": {
+          "sha256": "d4d614ccca0c1e038f7275cad47c99391e88275dc0cf72161c9bf81036feeb70",
+          "size": 344
+        },
+        "amazingfeature/effects/lumi_mirror_mask/xshader/picture.xshader": {
+          "sha256": "17627fd8c1506214956271d59ea790059bc286e2f60bb0c66a80644f8d85cd11",
+          "size": 1404
+        },
+        "amazingfeature/js-meta.json": {
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "size": 2
+        },
+        "amazingfeature/lua/LumiFamily/LumiManager.lua": {
+          "sha256": "59651651476e6cb435452ede1ac4e9e2a7003ac7832692df77c7de2abc72eb75",
+          "size": 4898
+        },
+        "amazingfeature/lua/LumiFamily/LumiObjectExtension.lua": {
+          "sha256": "cd4295455c9c8ad7c5c1d31e8c128b8d581ceaad2227315e5c9b8c5f01882423",
+          "size": 14607
+        },
+        "amazingfeature/lua/LumiFamily/LumiParamsSetter.lua": {
+          "sha256": "f40b8f07255e9d1c62981ea943e1e5a1fe1ef54a587c5d92e8a3f0980949a2e3",
+          "size": 1204
+        },
+        "amazingfeature/lua-meta.json": {
+          "sha256": "9b9d86a8d318755ea53b8205af4c5ccdbb8c1a042a86f5d5d85e3963ff2aaae7",
+          "size": 3043
+        },
+        "amazingfeature/main.scene": {
+          "sha256": "f431f5cab2e6d2c8e46c66c9576a8007aa02ca6797af9b55797c6b58c15020c7",
+          "size": 3676
+        },
+        "amazingfeature/prefabs/mirrorMaskProcess.prefab": {
+          "sha256": "42465a8ef5c04c5b7a5301dfb6af284f700a89e39657cef63968bcfd4f63b1a9",
+          "size": 2419
+        },
+        "amazingfeature/rt/outputTex.rt": {
+          "sha256": "de4487a2c5e611ab50eb28eaeb67d3e25b7e425abef900859fc1e190eafca249",
+          "size": 527
+        },
+        "amazingfeature/scene.config": {
+          "sha256": "daa4eb8735bcabc75630989ef6f365d13fe937e57cf42b05b529f99fecc8409c",
+          "size": 288
+        },
+        "amazingfeature/sticker.config": {
+          "sha256": "c2e398fb02d37ea98d2dffe986c47975e76b3fff8d7df2085986b10eb07b48d9",
+          "size": 300
+        },
+        "config.json": {
+          "sha256": "04f8ca432df5091774181a80a32aaaf81585af49a8dddfd996e19805bc4479cf",
+          "size": 245
+        }
+      },
+      "tree_sha256": "36365677e9ef362fdba0a5a9169cd9427c85f3ebecfc16f98c7d17a21bef3977",
+      "material": {
+        "type": "mask",
+        "category": "video",
+        "category_name": "基础",
+        "category_id": "jichu",
+        "resource_id": "7356933823327638042",
+        "name": "镜面",
+        "resource_type": "mirror",
+        "text_config": {
+          "align_type": 15
+        }
+      },
+      "aspect_ratio": 1,
+      "capture": "@home/Documents/Codex/2026-07-27/pyjianyingdraft/work/native-features-1142-20260914/capture-mask-mirror/timeline.json",
+      "capture_sha256": "74e8ba38995cd712865108adf27cc89137d77ae6aed9f660b4b8cf7e101bf587"
+    },
+    "mask/star": {
+      "source": "@home/Movies/JianyingPro/User Data/Cache/effect/83244852/7ff81ba985da9aae07b69c5b77ea7e9a",
+      "files": {
+        "amazingfeature/LuaRTTI.MarkGen.lua": {
+          "sha256": "92c21dcd89568286f774729df77109e6cb409920e9628f7ee1aff8fd804f72c3",
+          "size": 198
+        },
+        "amazingfeature/content.json": {
+          "sha256": "8860110e238d331648ba178fc65c2df5460b2cb217849e1d8bee08154269a46a",
+          "size": 214
+        },
+        "amazingfeature/effects/lumi_star_mask/lua/Process.lua": {
+          "sha256": "b2d2c7afe094e93c9f512487d5270b995112cc0d42a8609713946dce1fc2f283",
+          "size": 4092
+        },
+        "amazingfeature/effects/lumi_star_mask/material/mask.material": {
+          "sha256": "7515e15ce52d88840b614c3e459c1125b9c67f492d0b9bab269b1c4cac10ae08",
+          "size": 910
+        },
+        "amazingfeature/effects/lumi_star_mask/material/picture.material": {
+          "sha256": "145b498c15284c58fa22aef280345a8fa9b14463f407f9473c2439effd302e1f",
+          "size": 781
+        },
+        "amazingfeature/effects/lumi_star_mask/mesh/SP_Quad.mesh": {
+          "sha256": "454d21a05fd60a5eb9f27a46b90212be995eb87554439423de9ab1ecc75a5575",
+          "size": 1043
+        },
+        "amazingfeature/effects/lumi_star_mask/rt/midRT.rt": {
+          "sha256": "5363824b940ed69426b34ef163871854557e5b4f920d9bf4adf4ecaec3910d80",
+          "size": 586
+        },
+        "amazingfeature/effects/lumi_star_mask/xshader/mask.frag": {
+          "sha256": "47d7f3a9c3ddd8f3b676bb80e838bd8c93c8d1a1aa8457c755ce9f6ead5ecf6c",
+          "size": 417
+        },
+        "amazingfeature/effects/lumi_star_mask/xshader/mask.vert": {
+          "sha256": "e55f9f7b5e2ce595f794ea38060d645f39d309655424f5feeec1670418428971",
+          "size": 606
+        },
+        "amazingfeature/effects/lumi_star_mask/xshader/mask.xshader": {
+          "sha256": "00bf2c911ba4141f6658eda394c4d91fd77b4456cfa7177018d0f9da11b97650",
+          "size": 1188
+        },
+        "amazingfeature/effects/lumi_star_mask/xshader/picture.frag": {
+          "sha256": "20c5e577c3effd25106853461af142cecf26788e7bab90fe9cd87a4490e165d5",
+          "size": 345
+        },
+        "amazingfeature/effects/lumi_star_mask/xshader/picture.vert": {
+          "sha256": "b5d71a4dedfed1a911a946e4689f422b307cf1a64181d07b2afaa72702d6c975",
+          "size": 168
+        },
+        "amazingfeature/effects/lumi_star_mask/xshader/picture.xshader": {
+          "sha256": "6d0e45a3de7da81aec57a10418e3aac5f1b3367290758a0f4b670d73c018f4cd",
+          "size": 1197
+        },
+        "amazingfeature/image/mask.png": {
+          "sha256": "c5d40eb242af23a8661570a08c3cdf692a6c5718f0fd7a523571a3f490201de4",
+          "size": 259839
+        },
+        "amazingfeature/image/mask.png.meta": {
+          "sha256": "c2b02591bd0600ca242a9ffa9bb6f38b17baccfe71c13b5c1334df2be7c52dcf",
+          "size": 389
+        },
+        "amazingfeature/js-meta.json": {
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "size": 2
+        },
+        "amazingfeature/lua/LumiFamily/LumiManager.lua": {
+          "sha256": "59651651476e6cb435452ede1ac4e9e2a7003ac7832692df77c7de2abc72eb75",
+          "size": 4898
+        },
+        "amazingfeature/lua/LumiFamily/LumiObjectExtension.lua": {
+          "sha256": "cd4295455c9c8ad7c5c1d31e8c128b8d581ceaad2227315e5c9b8c5f01882423",
+          "size": 14607
+        },
+        "amazingfeature/lua/LumiFamily/LumiParamsSetter.lua": {
+          "sha256": "f40b8f07255e9d1c62981ea943e1e5a1fe1ef54a587c5d92e8a3f0980949a2e3",
+          "size": 1204
+        },
+        "amazingfeature/lua-meta.json": {
+          "sha256": "a9fb4a848cecac539caba1fa56d5ba20a6f6338768a01a5ea7398392f949f0cc",
+          "size": 3123
+        },
+        "amazingfeature/main.scene": {
+          "sha256": "6eb0836188a8c0082c81d37e6fe2643779d77b19e194ab47dcae8cfc79558eab",
+          "size": 5177
+        },
+        "amazingfeature/prefabs/startMaskProcess.prefab": {
+          "sha256": "6370e965c07d9ad1d86f8f43bcd4a3e4b60a38fbf31136036a1eb5955a066a58",
+          "size": 4044
+        },
+        "amazingfeature/rt/outputTex.rt": {
+          "sha256": "6b1eb1e9ae5cbd0615d94acd4d8ded41be99386b6c35c70eab8f8f9c1fa2f723",
+          "size": 527
+        },
+        "amazingfeature/sticker.config": {
+          "sha256": "c2e398fb02d37ea98d2dffe986c47975e76b3fff8d7df2085986b10eb07b48d9",
+          "size": 300
+        },
+        "config.json": {
+          "sha256": "d57888cfae88170e3735d02578194f50f178031ec16992f28565b0a8981ca7a1",
+          "size": 243
+        },
+        "material.svg": {
+          "sha256": "2a8796b00e28b19f1a615d438e0f9e38078a8aabc08d4121a8491ced422dcd3a",
+          "size": 1805
+        }
+      },
+      "tree_sha256": "ba3fd7ebd571eba4f3383343eb7b8f6f504dfef8d6477af3bbe49bd8c67f2a8e",
+      "material": {
+        "type": "mask",
+        "category": "video",
+        "category_name": "基础",
+        "category_id": "jichu",
+        "resource_id": "7416258989467374091",
+        "name": "星形",
+        "resource_type": "pentagram",
+        "text_config": {
+          "align_type": 15
+        }
+      },
+      "aspect_ratio": 1.0471014493,
+      "capture": "@home/Documents/Codex/2026-07-27/pyjianyingdraft/work/native-features-1142-20260914/capture-mask-star/timeline.json",
+      "capture_sha256": "af6bc412e8a7a2a0041517550b37a4bda2db682a5b9f058ed19af3d9eac95fee"
+    },
+    "mask/heart": {
+      "source": "@home/Movies/JianyingPro/User Data/Cache/effect/83244815/27ae3c55bb97e470a75f61a8d34832bf",
+      "files": {
+        "amazingfeature/LuaRTTI.MarkGen.lua": {
+          "sha256": "92c21dcd89568286f774729df77109e6cb409920e9628f7ee1aff8fd804f72c3",
+          "size": 198
+        },
+        "amazingfeature/content.json": {
+          "sha256": "83d2a69b1c4cedd61baebf42706657ccaab2b997331d61dc41e7dea07225b7bc",
+          "size": 217
+        },
+        "amazingfeature/effects/lumi_heart_mask/lua/Process.lua": {
+          "sha256": "31d7444e28acb34580e99060fd60e85e63997b85aa36dab92491356204128a7f",
+          "size": 4040
+        },
+        "amazingfeature/effects/lumi_heart_mask/material/mask.material": {
+          "sha256": "5d41a7b2c6f0399c43233ee7c5367a6575724cdee762aa410dc99b77575b3acb",
+          "size": 852
+        },
+        "amazingfeature/effects/lumi_heart_mask/material/picture.material": {
+          "sha256": "df9343a3b76efd761a19e6281d64709aa575c6f17af8f8f9214c0d2903b877d0",
+          "size": 783
+        },
+        "amazingfeature/effects/lumi_heart_mask/mesh/SP_Quad.mesh": {
+          "sha256": "454d21a05fd60a5eb9f27a46b90212be995eb87554439423de9ab1ecc75a5575",
+          "size": 1043
+        },
+        "amazingfeature/effects/lumi_heart_mask/rt/midRT.rt": {
+          "sha256": "5363824b940ed69426b34ef163871854557e5b4f920d9bf4adf4ecaec3910d80",
+          "size": 586
+        },
+        "amazingfeature/effects/lumi_heart_mask/xshader/mask.frag": {
+          "sha256": "409a372219ecd147a2da1177704dc67dd7f7806451c102e492c6772ed2021344",
+          "size": 417
+        },
+        "amazingfeature/effects/lumi_heart_mask/xshader/mask.vert": {
+          "sha256": "e55f9f7b5e2ce595f794ea38060d645f39d309655424f5feeec1670418428971",
+          "size": 606
+        },
+        "amazingfeature/effects/lumi_heart_mask/xshader/mask.xshader": {
+          "sha256": "29fc716558b5d67d8399df7781fc4180ded8b3990e7fbd57eee3ef3e80a1e57d",
+          "size": 1190
+        },
+        "amazingfeature/effects/lumi_heart_mask/xshader/picture.frag": {
+          "sha256": "20c5e577c3effd25106853461af142cecf26788e7bab90fe9cd87a4490e165d5",
+          "size": 345
+        },
+        "amazingfeature/effects/lumi_heart_mask/xshader/picture.vert": {
+          "sha256": "b5d71a4dedfed1a911a946e4689f422b307cf1a64181d07b2afaa72702d6c975",
+          "size": 168
+        },
+        "amazingfeature/effects/lumi_heart_mask/xshader/picture.xshader": {
+          "sha256": "96fc21e23d49801c3471813e1f96c51dddb405235a798be00f64a94167469104",
+          "size": 1199
+        },
+        "amazingfeature/image/mask.png": {
+          "sha256": "967d84309d93a7f49cc0127875d36cfceb185250e276dc8124e7e9145d579c84",
+          "size": 313939
+        },
+        "amazingfeature/image/mask.png.meta": {
+          "sha256": "320d8043cf175e87ff020a9ce79381a539ae7eb938baab63a85843bfb198b639",
+          "size": 389
+        },
+        "amazingfeature/js-meta.json": {
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "size": 2
+        },
+        "amazingfeature/lua/LumiFamily/LumiManager.lua": {
+          "sha256": "59651651476e6cb435452ede1ac4e9e2a7003ac7832692df77c7de2abc72eb75",
+          "size": 4898
+        },
+        "amazingfeature/lua/LumiFamily/LumiObjectExtension.lua": {
+          "sha256": "cd4295455c9c8ad7c5c1d31e8c128b8d581ceaad2227315e5c9b8c5f01882423",
+          "size": 14607
+        },
+        "amazingfeature/lua/LumiFamily/LumiParamsSetter.lua": {
+          "sha256": "f40b8f07255e9d1c62981ea943e1e5a1fe1ef54a587c5d92e8a3f0980949a2e3",
+          "size": 1204
+        },
+        "amazingfeature/lua-meta.json": {
+          "sha256": "a9fb4a848cecac539caba1fa56d5ba20a6f6338768a01a5ea7398392f949f0cc",
+          "size": 3123
+        },
+        "amazingfeature/main.scene": {
+          "sha256": "a9e8d5f9aa8020baa21560339ab391b54647a153b1d68e4d8b678f5b239059c8",
+          "size": 5235
+        },
+        "amazingfeature/prefabs/heartMaskProcess.prefab": {
+          "sha256": "6033594ea93fe9f1000b644cebeca03f1bcba1ec06115692fd49f40e181917cd",
+          "size": 4051
+        },
+        "amazingfeature/rt/outputTex.rt": {
+          "sha256": "d57a9bbad70c0101c87b217839053a2b779a3982830aca4b6419d81f10d80042",
+          "size": 527
+        },
+        "amazingfeature/sticker.config": {
+          "sha256": "c2e398fb02d37ea98d2dffe986c47975e76b3fff8d7df2085986b10eb07b48d9",
+          "size": 300
+        },
+        "config.json": {
+          "sha256": "d57888cfae88170e3735d02578194f50f178031ec16992f28565b0a8981ca7a1",
+          "size": 243
+        },
+        "material.svg": {
+          "sha256": "2a8796b00e28b19f1a615d438e0f9e38078a8aabc08d4121a8491ced422dcd3a",
+          "size": 1805
+        }
+      },
+      "tree_sha256": "d72134d8c23f46d9d2ca3b2d7171908285487f2a1cb69cdb57593d427e422936",
+      "material": {
+        "type": "mask",
+        "category": "video",
+        "category_name": "基础",
+        "category_id": "jichu",
+        "resource_id": "7416258912162157068",
+        "name": "爱心",
+        "resource_type": "heart",
+        "text_config": {
+          "align_type": 15
+        }
+      },
+      "aspect_ratio": 1.1148148148,
+      "capture": "@home/Documents/Codex/2026-07-27/pyjianyingdraft/work/native-features-1142-20260914/capture-mask-heart/timeline.json",
+      "capture_sha256": "ae1111bb01c2c26a0a5910b63aec5819bc709cf94edc4bca97d9d8a8e4969b7e"
+    },
+    "effect/light-shake": {
+      "source": "@home/Movies/JianyingPro/User Data/Cache/effect/7399493554147527951/f443ba63a627600bf408d3ed98fe788e",
+      "files": {
+        "AmazingFeature/Library/ShaderData/1fe96443d2e2eea49ef2202f8a56fd26/shaderGLES/4c5f3b563ad8e58fb10d5673d2364278.frag": {
+          "sha256": "1daa75c007305b9dd9142067d6d97db6c694d69367b6c8d672c96778eb64ba26",
+          "size": 243
+        },
+        "AmazingFeature/Library/ShaderData/1fe96443d2e2eea49ef2202f8a56fd26/shaderGLES/4c5f3b563ad8e58fb10d5673d2364278.vert": {
+          "sha256": "04e876ed7cd57c076a7c3d441922b28e6e1cee7da8c0907c0708e90fb4ab9ea1",
+          "size": 241
+        },
+        "AmazingFeature/Library/ShaderData/1fe96443d2e2eea49ef2202f8a56fd26/shaderMetal/4c5f3b563ad8e58fb10d5673d2364278.frag": {
+          "sha256": "ffa49b2ec7c530e5901cac301057a3e96137d2d9b99471a65262d8c99e69c234",
+          "size": 578
+        },
+        "AmazingFeature/Library/ShaderData/1fe96443d2e2eea49ef2202f8a56fd26/shaderMetal/4c5f3b563ad8e58fb10d5673d2364278.vert": {
+          "sha256": "a1eda886b84b3ddab065b248a20e659d64a07cb925afc0773b90c50e337a09ae",
+          "size": 544
+        },
+        "AmazingFeature/Library/ShaderData/cac811388c1e389d11bae79f24e00020/shaderGLES/9cdfd0c87a2a30eb8148378379a0d73a.frag": {
+          "sha256": "511a3a0778af30664ccb1f83db8dc119c2be8cfb67cb74ede7422f69df0e36f8",
+          "size": 546
+        },
+        "AmazingFeature/Library/ShaderData/cac811388c1e389d11bae79f24e00020/shaderGLES/9cdfd0c87a2a30eb8148378379a0d73a.vert": {
+          "sha256": "eb8d3949714bbbc5b25e281654e902762e4d6f173bd7a09ac6c176821a2a6091",
+          "size": 352
+        },
+        "AmazingFeature/Library/ShaderData/cac811388c1e389d11bae79f24e00020/shaderMetal/9cdfd0c87a2a30eb8148378379a0d73a.frag": {
+          "sha256": "f571d9aeb93faf4b1d74f847bdf1b1e2ce8a2e1180de3a9e1a8037226b41b6c3",
+          "size": 925
+        },
+        "AmazingFeature/Library/ShaderData/cac811388c1e389d11bae79f24e00020/shaderMetal/9cdfd0c87a2a30eb8148378379a0d73a.vert": {
+          "sha256": "7d65dd7e3f7d330ddc65b60cf64d600ad7927d9f6f401995a259629e4dda2bb1",
+          "size": 761
+        },
+        "AmazingFeature/LuaRTTI.MarkGen.lua": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        "AmazingFeature/algorithmConfig.json": {
+          "sha256": "052165d63e60d496d3ae3d6bccea21d21071069a81b5a2d16c01554aa0a46d24",
+          "size": 665
+        },
+        "AmazingFeature/alphaOutput_202101121913242fb870a854c711ebb5eaacde48001122/alphaOutput.material": {
+          "sha256": "22f7da9d0da73ab3756a5a7b4a8c496c0f0a3631526b5fff8be46061650b3cba",
+          "size": 787
+        },
+        "AmazingFeature/alphaOutput_202101121913242fb870a854c711ebb5eaacde48001122/alphaOutput.mesh": {
+          "sha256": "92e7dc4659ea0f26d8df6868c1bb3247c6f669d5e31f648e24d25c7d5d7ab68a",
+          "size": 1303
+        },
+        "AmazingFeature/alphaOutput_202101121913242fb870a854c711ebb5eaacde48001122/alphaOutput.rt": {
+          "sha256": "87aa174b3997bbcd6e9e71028696e7fcdb9fe88d83f78c94b102ee22cbe2a913",
+          "size": 584
+        },
+        "AmazingFeature/alphaOutput_202101121913242fb870a854c711ebb5eaacde48001122/alphaOutput.xshader": {
+          "sha256": "cf3974b3d1a463636940a8fa116226d2fff6e7b9b231021c3c9921ab1422435c",
+          "size": 3613
+        },
+        "AmazingFeature/content.json": {
+          "sha256": "c684243780a88bc6b7bc5f8772abfdb32a347eac80dbebb36d57815949adce20",
+          "size": 796
+        },
+        "AmazingFeature/lua/SeekModeScript.lua": {
+          "sha256": "4459a8275c2001931abaaa65bc494e8687aa0e9954080dbb5ae3b4c284b72f1d",
+          "size": 2779
+        },
+        "AmazingFeature/lua-meta.json": {
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "size": 2
+        },
+        "AmazingFeature/main.scene": {
+          "sha256": "9aac2e25ea879d0cc1a61127afc34d182b40fd30a83e1a06b673d99e3ae38a7e",
+          "size": 2232
+        },
+        "AmazingFeature/material/entity.material": {
+          "sha256": "0f0286a54f5cb3f3faec37fcd9355631c7141d33c019daa1fa61b4b55c4e5a53",
+          "size": 746
+        },
+        "AmazingFeature/mesh/quad.mesh": {
+          "sha256": "396c33d3daa9ea5d614ef1aec65e8cc6a772a8c095724fc5085d966d0fa8f58b",
+          "size": 1043
+        },
+        "AmazingFeature/rt/outputTex.rt": {
+          "sha256": "3497075bd59f660eadefb5c3f87afb2561fd0b189b744e42d793d605fb5e8abf",
+          "size": 575
+        },
+        "AmazingFeature/scene.config": {
+          "sha256": "a5a51cc3a345cae0f2f97faf030401670eef4807f7033a030da37504048fb3f1",
+          "size": 363
+        },
+        "AmazingFeature/sticker.config": {
+          "sha256": "661d3f6bf978a3d8ba193566c404a6fe61895dfb7952f232033fa5aa7a2fa9d5",
+          "size": 261
+        },
+        "AmazingFeature/xshader/entity.xshader": {
+          "sha256": "17c28b71f8c25a6c4774b8c1e5a7508fc3e70ae4244bf3044c6fdf68a7e3228d",
+          "size": 3593
+        },
+        "config.json": {
+          "sha256": "dd2b9a53c1978b150a84195b471a71fe51eed39e7d99b3506f71a344086185c4",
+          "size": 253
+        },
+        "effect_required_files.tag": {
+          "sha256": "429e5ae39ade67994ea0a0fc489d2a88f76a15c57b37cac0ec5423ec357531eb",
+          "size": 1738
+        },
+        "extra.json": {
+          "sha256": "b949b259fa12c8cca0f00f95107a1090c452fe41b16c8b3ac5087b8db723ddf3",
+          "size": 401
+        }
+      },
+      "tree_sha256": "109b61dbbfb2f09a69e01e56197d840f7199f6ad51201b0b62a1bc2341929555",
+      "native_generated_cache_files": {
+        "AmazingFeature/Library/ShaderData/1fe96443d2e2eea49ef2202f8a56fd26/shaderMetal/f443ba63a627600bf408d3ed98fe788e_4c5f3b563ad8e58fb10d5673d2364278_26.5.1.metallib": {
+          "sha256": "94d35533d383a3bdb2cf41f1ce7a55da60d75de1301e051f3b1cdeb4b19b7965",
+          "size": 30032
+        },
+        "AmazingFeature/Library/ShaderData/cac811388c1e389d11bae79f24e00020/shaderMetal/f443ba63a627600bf408d3ed98fe788e_9cdfd0c87a2a30eb8148378379a0d73a_26.5.1.metallib": {
+          "sha256": "01892b9aae30672eabaf16b5d8f4fb17749c0309bf9008039545d87808a0b0c9",
+          "size": 35904
+        }
+      },
+      "material": {
+        "effect_id": "7399493554147527951",
+        "resource_id": "7399493554147527951",
+        "name": "轻微抖动",
+        "type": "video_effect",
+        "value": 1.0,
+        "category_id": "1111",
+        "category_name": "画面特效",
+        "source_platform": 1,
+        "apply_target_type": 2,
+        "adjust_params": [
+          {
+            "name": "effects_adjust_range",
+            "value": 0.15,
+            "default_value": 0.15
+          },
+          {
+            "name": "effects_adjust_speed",
+            "value": 0.33,
+            "default_value": 0.33
+          }
+        ]
+      },
+      "capture": "@home/Documents/Codex/2026-07-27/pyjianyingdraft/work/native-features-1142-20260914/capture-effect-light-shake-v1/timeline.json",
+      "capture_sha256": "57bda80d11466a5fc038bb9e83a7a6baf872c52520dc64e702d429905f06fe18",
+      "usage": {
+        "ui_label_observed": "可商用",
+        "paid_badge_observed": false,
+        "entitlement_verified": false,
+        "redistribution_authorized": false,
+        "scope": "local editable preview; obey native account and resource restrictions"
+      },
+      "track_template": {
+        "type": "effect",
+        "is_default_name": true
+      },
+      "segment_template": {
+        "render_timerange": {},
+        "render_index": 11000,
+        "enable_lut": false,
+        "enable_adjust": false,
+        "enable_hsl": false,
+        "responsive_layout": {},
+        "enable_adjust_mask": false,
+        "source": "segmentsourcenormal"
+      }
+    },
+    "transition/dissolve": {
+      "source": "@home/Movies/JianyingPro/User Data/Cache/effect/6724845717472416269/33d3a1ad16e89a4e2c9b6d45e3ec7aa1",
+      "files": {
+        "AmazingAuto_out/LuaRTTI.MarkGen.lua": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        "AmazingAuto_out/content.json": {
+          "sha256": "92eeefe61ed3902001e0bcae190e625955de38423c9c170c40826b85c06b795e",
+          "size": 142
+        },
+        "AmazingAuto_out/js-meta.json": {
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "size": 2
+        },
+        "AmazingAuto_out/lua/SadGE.lua": {
+          "sha256": "9722c8df776082d6204e4b2c6649515439b90cb25fe6677ecccde9ca9ac1128a",
+          "size": 9028
+        },
+        "AmazingAuto_out/lua/Utils.lua": {
+          "sha256": "000da05069ca2994cb7f52fdd3f0ebabf8a473c45f9a22cc2e77ac1b00e6576c",
+          "size": 9872
+        },
+        "AmazingAuto_out/lua-meta.json": {
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "size": 2
+        },
+        "AmazingAuto_out/main.scene": {
+          "sha256": "5c4c7d4f6718f1d81641ad5b88a08d974993a26b6abc94a314212e9dc637856a",
+          "size": 1327
+        },
+        "AmazingAuto_out/rt/outputTex.rt": {
+          "sha256": "955f0f77c2840ab279e1804b0f753556427085d25edab8d12f05c1811c5dab8c",
+          "size": 567
+        },
+        "AmazingAuto_out/sticker.config": {
+          "sha256": "094a2693a4722b2b77123019366581818f616ea23eaed13972b2a4d4d0c9b7a3",
+          "size": 218
+        },
+        "AmazingAuto_out/xshader/generalEffect.json": {
+          "sha256": "f8fb7f6e11c501858c61a81f1a94a78612341168c9e3ff63de9575b2fcff75f8",
+          "size": 2133
+        },
+        "AmazingAuto_out/xshader/resource1/shader/VerticalGlitch0.frag": {
+          "sha256": "fbe96fb7fee463ac8f400418aef0ee4ace827b5c2af3b923c78eb676b8014be4",
+          "size": 569
+        },
+        "AmazingAuto_out/xshader/resource1/shader/VerticalGlitch0.vert": {
+          "sha256": "2b94d49c400024e3c7021d310d90b35f8e7dce57ada88d0c330db3938796c3a2",
+          "size": 200
+        },
+        "config.json": {
+          "sha256": "a30ca51606a1da57f82e87b0e009aa7af2b415023e5718b081347a0c504732d2",
+          "size": 172
+        },
+        "extra.json": {
+          "sha256": "aed526713f1b762623fa7ab2a234b1ea41543d9f2cb7ef9080ca90b3ca3dda4f",
+          "size": 104
+        }
+      },
+      "tree_sha256": "dc006fa499721070ec74f98a2aa01ca7baa85bca5a7145b12acf6c4cdc0243da",
+      "material": {
+        "type": "transition",
+        "name": "叠化",
+        "effect_id": "6724845717472416269",
+        "resource_id": "6724845717472416269",
+        "third_resource_id": "6724845717472416269",
+        "source_platform": 1,
+        "is_overlap": true,
+        "category_id": "39663",
+        "category_name": "热门"
+      },
+      "capture": "@home/Documents/Codex/2026-07-27/pyjianyingdraft/work/native-features-1142-20260914/capture-transition-dissolve-v1/timeline.json",
+      "capture_sha256": "5f844567508bd0b0c1740045e8144bdbe1fcb4336627cbf8cecb57a40c7b600a"
+    }
+  }
+}

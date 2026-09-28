@@ -1,0 +1,267 @@
+{
+  "date": "2026-09-22",
+  "question": "Does changing only the two stored average-speed fields alter native curve time mapping or rendered source frames?",
+  "decision": "H1 removed from defect and acceptance backlog: native results do not support a playback difference caused only by the relative average-speed change in the reviewed custom-curve context. No implementation change or arbitrary percentage threshold.",
+  "scope": "Diagnostic synthetic inputs derived from a real native custom curve; not new GUI-save acceptance and not public curve-export support.",
+  "runtime": {
+    "status": "ok",
+    "app_version": "11.5.0",
+    "app_build": "11.5.0",
+    "primary_version": "11.5.0",
+    "compatibility_mode": false,
+    "bundle_id": "com.lemon.lvpro",
+    "libvideoeditor_sha256": "2041482a1aaeffa4d8bd69b836f8cf38807aaad8021bca410d567c59af3bccfa",
+    "runtime_profile": "jy14-headless-macos-11.5.0",
+    "codec_sha256": "ac202d8d28f15a4c4d512c7bdefa6e961320a6718407bbedc1338cb6ce62c0b0",
+    "runtime_hashes_verified": true,
+    "network_called": false,
+    "full_signature_check": "passed",
+    "team_identifier": "X2JNK7LY8J"
+  },
+  "fixed_upstream_codec_ab": "Not performed; recorded local codec differs from the fixed upstream codec.",
+  "candidate_native_edit_sha256": "151d2adaa582a6a45dcc9ef7606c1e68ef43110602b264fba7d8fcef2235b36e",
+  "candidate_implementation_changed_for_this_check": false,
+  "input_origin": {
+    "saved_custom_curve_capture_sha256": "68bccb6bd5de6c7d9ab48a33fdebc942f28d545e94027403fe7e4dfe80810d93",
+    "generated_frame_coded_media_sha256": "b7a0eb030c612f4962094ddd58240ee23a7bd8edc65f8ed9362c2d715f1c4068",
+    "derived_fixture": true,
+    "timeline_duration_us": 3000000,
+    "dimensions": [
+      640,
+      360
+    ],
+    "fps": 30,
+    "cases": [
+      {
+        "name": "H1-one-frame",
+        "source_duration_us": 120000,
+        "target_duration_us": 33333,
+        "before_segment_and_material_average": 2.0,
+        "after_segment_and_material_average": 3.600036000360004,
+        "parser_preserved_different_averages": true,
+        "mapping_samples": 21,
+        "changed_curve_mapping_differences": 13
+      },
+      {
+        "name": "two-frame",
+        "source_duration_us": 120000,
+        "target_duration_us": 66667,
+        "before_segment_and_material_average": 1.4,
+        "after_segment_and_material_average": 1.7999910000449997,
+        "parser_preserved_different_averages": true,
+        "mapping_samples": 21,
+        "changed_curve_mapping_differences": 13
+      },
+      {
+        "name": "ten-frame",
+        "source_duration_us": 500000,
+        "target_duration_us": 333333,
+        "before_segment_and_material_average": 1.4,
+        "after_segment_and_material_average": 1.5000015000015,
+        "parser_preserved_different_averages": true,
+        "mapping_samples": 28,
+        "changed_curve_mapping_differences": 20
+      },
+      {
+        "name": "native-observed",
+        "source_duration_us": 3000000,
+        "target_duration_us": 2066667,
+        "before_segment_and_material_average": 1.4488572870241114,
+        "after_segment_and_material_average": 1.4516126690947309,
+        "parser_preserved_different_averages": true,
+        "mapping_samples": 83,
+        "changed_curve_mapping_differences": 53
+      },
+      {
+        "name": "ordinary-tail",
+        "source_duration_us": 500000,
+        "target_duration_us": 500000,
+        "before_segment_and_material_average": 1.0,
+        "after_segment_and_material_average": 1.0,
+        "parser_preserved_different_averages": false,
+        "mapping_samples": 36,
+        "changed_curve_mapping_differences": 0
+      }
+    ],
+    "native_observed_case_duration_note": "The derived native-observed case uses 2066667 us for this 90-frame combined fixture; the original saved capture uses 2066666 us. It is not a replay of that exact UI scene."
+  },
+  "input_controls": {
+    "before_after_changes": [
+      "/tracks/0/segments/0/speed",
+      "/tracks/0/segments/1/speed",
+      "/tracks/0/segments/2/speed",
+      "/tracks/0/segments/3/speed",
+      "/materials/speeds/0/speed",
+      "/materials/speeds/1/speed",
+      "/materials/speeds/2/speed",
+      "/materials/speeds/3/speed"
+    ],
+    "changed_curve_changes": [
+      "/materials/speeds/0/curve_speed/speed_points/2/y",
+      "/materials/speeds/1/curve_speed/speed_points/2/y",
+      "/materials/speeds/2/curve_speed/speed_points/2/y",
+      "/materials/speeds/3/curve_speed/speed_points/2/y"
+    ],
+    "variant_local_media_paths_normalized_only_for_change_comparison": true,
+    "all_original_inputs_unchanged_after_probe_and_export": true,
+    "saved_capture_hash_still_matches": true,
+    "native_parser_preserved_scalar_differences": true
+  },
+  "native_time_queries": {
+    "functions": [
+      "KeyframeTimeHelper::getKeyframeTimeOffsetByTimeline",
+      "KeyframeTimeHelper::getTimelineByKeyframeTimeOffset",
+      "KeyframeTimeHelper::getRelativeSeqTimeByKeyframeTimeOffset",
+      "VideoUpdateSpeedUtils::get_source_offset_with_speed",
+      "VideoUpdateSpeedUtils::get_real_offset_with_speed"
+    ],
+    "sampling": "Each segment: 20 proportional points, endpoint-adjacent sample, and 33333-us intervals; duplicates removed. VideoUpdateSpeedUtils receives segment-local time; KeyframeTimeHelper receives absolute timeline time.",
+    "samples": 189,
+    "before_after_different_rows": 0,
+    "changed_curve_different_rows": 99,
+    "probe_cpp_sha256": "5450ad12f06fc446e0a15873dfd7e1bfebf060e7bc06e0892f19db3e41c48d25",
+    "probe_binary_sha256": "aeaa3c5353f424fc781121813631b4ef81d7e522c887a3b8016eb00dc987f9b4",
+    "queries_sha256": "9a8c6cf7029a09d3b63be1b21300c6c0c5a13536de0b3bd7c50f14086bcae97b"
+  },
+  "render_comparison": {
+    "native_exports_performed": 3,
+    "complete_exports_accepted": 2,
+    "incomplete_exports_rejected": 1,
+    "before": {
+      "native_returncode": 0,
+      "media": {
+        "duration_seconds": 2.999998,
+        "frames": 90,
+        "expected_frames": 90,
+        "frame_delta": 0,
+        "frame_count_policy": "exact-aligned",
+        "accepted_frame_range": [
+          90,
+          90
+        ],
+        "duration_delta_seconds": -2e-06,
+        "width": 640,
+        "height": 360,
+        "fps": 30.0,
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "major_brand": "isom"
+      },
+      "exact_frame_validation": "passed",
+      "decoded_frames": 90,
+      "full_decode_passed": true
+    },
+    "after": {
+      "native_returncode": 0,
+      "media": {
+        "duration_seconds": 2.999998,
+        "frames": 90,
+        "expected_frames": 90,
+        "frame_delta": 0,
+        "frame_count_policy": "exact-aligned",
+        "accepted_frame_range": [
+          90,
+          90
+        ],
+        "duration_delta_seconds": -2e-06,
+        "width": 640,
+        "height": 360,
+        "fps": 30.0,
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "major_brand": "isom"
+      },
+      "exact_frame_validation": "passed",
+      "decoded_frames": 90,
+      "full_decode_passed": true,
+      "different_frame_indices_over_common_prefix": []
+    },
+    "all_90_before_after_decoded_frame_hashes_equal": true,
+    "all_before_after_decoded_source_indices_equal": true,
+    "changed_curve_control": {
+      "native_returncode": 0,
+      "frames": 89,
+      "required_frames": 90,
+      "exact_frame_validation": "rejected",
+      "full_decode_passed": true,
+      "source_frame_differences_at_common_output_positions": 40,
+      "differing_source_frame_positions": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        39,
+        40,
+        41,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "role": "Sensitivity evidence only from native time queries and available decoded frames; not a complete accepted export.",
+      "error": "Export frame count is incomplete or excessive: got 89, expected 90..90; partial output is not a deliverable",
+      "cause": "Not established by this investigation.",
+      "retry_performed": false,
+      "frame_requirement_relaxed": false
+    },
+    "export_helper_sha256": "a8183a606a2aa715945f3e7a38d1427c66ae4074c672f4c936598a1270b03507",
+    "export_helper_cpp_sha256": "c60da6c65f5bb7ac733b8f5b619401be3921f9254b953a55903d4e7566156379",
+    "export_helper_source_matches_isolated_runtime": true
+  },
+  "evidence_sha256": {
+    "before": {
+      "timeline.json": "6a9fc8bdffe7847a6e351f0a64d4da349ac3100304f8c1cd763df17652e8fffc",
+      "native-parsed.json": "29db79ee0b90f5052aac3eef89bc3cbf730bab86ba14a4f79faca34ecccd492c",
+      "probe.stdout": "e86940c48212a5dea6202b0b03395a09abc8f34641dda1b210bdd03e1c67bb8d",
+      "render.mp4": "04ca2c385bed0765e331f303f22db243f645f91fa2a8b4edc27d02b0eba89bab",
+      "ffprobe.json": "8fd3ce8a7033a7716051fca2e344f237131f13ea9c8420ffd76a9418a867d123",
+      "decoded-frames.md5": "b9a65d5c7d11af46c6d6586cb6a89831ea5c2156772a363d4613e3df514c51a7"
+    },
+    "after": {
+      "timeline.json": "b022109c926ce9e92c44a855fc2c9db9925314f7cabb9453f1f36e5f73c0702a",
+      "native-parsed.json": "eb51ea6a6a25ad08f1c46dd3a88054d7faa8a080a657a36687eddaae241b9de5",
+      "probe.stdout": "e86940c48212a5dea6202b0b03395a09abc8f34641dda1b210bdd03e1c67bb8d",
+      "render.mp4": "f2f8366f012f98a29e10b11ff68428558d7ebaf35dac1124294597df27e1a569",
+      "ffprobe.json": "31d266bd299f5d5a788459da5bced21805a7fe6649e4ecb2c7fd32c538122fd1",
+      "decoded-frames.md5": "b9a65d5c7d11af46c6d6586cb6a89831ea5c2156772a363d4613e3df514c51a7"
+    },
+    "changed-curve-control": {
+      "timeline.json": "b79ac3f3018f9f8e76c9de90f460c09d01da044258c6b971743c6c8d54eda709",
+      "native-parsed.json": "090a14eb409d11d395d40afbb035ce095fc71a7367d6dc6a41306cff6d28f0c2",
+      "probe.stdout": "b9f0812364f61526a9c3ceac651951239622c62c251c71e5987ae4cebbdc5317",
+      "render.mp4": "f7b7368a679dc99a829ea4924123f1707c69e2f36fdae8184017df2b9bbc7ca3",
+      "ffprobe.json": "82a3f835e11cef3a2fa450d74e0897a29c599b02c6b2d18043caf51b66f9cd1f",
+      "decoded-frames.md5": "44515ed5d7772a20242fb502c445ca2779d478ee934a1382759692a84e65107c"
+    }
+  },
+  "raw_evidence": "Full frozen inputs, query/export sources and logs, native parsed documents and rendered media retained locally; selected path-free facts and hashes are included here."
+}

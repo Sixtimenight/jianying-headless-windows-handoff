@@ -1,0 +1,95 @@
+name: Windows FFmpeg acceptance
+
+on:
+  pull_request:
+  push:
+    branches: [feat/windows-ffmpeg-export]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-macos:
+    runs-on: macos-15
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: '3.12.10'
+      - name: Source package regression
+        run: python tools/check_package.py
+      - name: Portable package regression
+        run: python -m unittest discover -s tests -p test_package.py -v
+      - name: Public-media regression
+        run: python -m unittest discover -s tests -p test_public_media.py -v
+
+  windows-ffmpeg:
+    runs-on: windows-2022
+    timeout-minutes: 30
+    env:
+      FFMPEG_ASSET_API: https://api.github.com/repos/BtbN/FFmpeg-Builds/releases/assets/583988006
+      FFMPEG_SHA256: fde13c8cf7c1b0a54bf661105652970810d94d140d867dd990fce4885a9f5d20
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: '3.12.10'
+      - name: Install reviewed FFmpeg 8.1 build
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          $archive = Join-Path $env:RUNNER_TEMP 'ffmpeg.zip'
+          $headers = @{
+            Accept = 'application/octet-stream'
+            Authorization = "Bearer $env:GITHUB_TOKEN"
+            'X-GitHub-Api-Version' = '2022-11-28'
+          }
+          Invoke-WebRequest -Uri $env:FFMPEG_ASSET_API -Headers $headers -OutFile $archive
+          $actual = (Get-FileHash -LiteralPath $archive -Algorithm SHA256).Hash.ToLowerInvariant()
+          if ($actual -ne $env:FFMPEG_SHA256) {
+            throw "FFmpeg archive digest mismatch: $actual"
+          }
+          $folder = Join-Path $env:RUNNER_TEMP 'ffmpeg'
+          Expand-Archive -LiteralPath $archive -DestinationPath $folder
+          $binary = Get-ChildItem -LiteralPath $folder -Filter ffmpeg.exe -Recurse |
+            Select-Object -First 1
+          if (-not $binary) { throw 'ffmpeg.exe is missing from reviewed archive' }
+          $binary.DirectoryName | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+      - name: Verify FFmpeg and FFprobe
+        shell: pwsh
+        run: |
+          ffmpeg -version
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          ffprobe -version
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Verify source pins
+        run: python tools/check_package.py
+      - name: Portable package tests
+        run: python -m unittest discover -s tests -p test_package.py -v
+      - name: Windows FFmpeg tests
+        run: python -m unittest engine.test_windows_ffmpeg -v
+      - name: Real-media CLI evidence
+        shell: pwsh
+        run: python tools/windows_ci_evidence.py
+      - name: Upload sanitized evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: windows-ffmpeg-evidence
+          path: |
+            work/windows-ci-build/build.json
+            work/windows-ci-build/plan.json
+            work/windows-ci-export/render.mp4
+            work/windows-ci-export/result.json
+            work/windows-ci-export/audio-gain.json
+            work/windows-ci-export/filter_complex.txt
+            work/windows-ci-export/*.log
+          if-no-files-found: warn
+          retention-days: 7

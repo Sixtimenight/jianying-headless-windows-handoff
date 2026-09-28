@@ -1,0 +1,25 @@
+{
+  "runtime": {
+    "status": "ok",
+    "app_version": "11.4.0",
+    "manifest_sha256": "2fea820b26d503940526c345ce8e9bd87c25f0c1c8b1c4a02aa8edba317e33dd",
+    "runtime_hashes_verified": true,
+    "full_signature_check": "required again before live apply",
+    "network_called": false
+  },
+  "blueprint_sha256": "91f7eddad5bff9af23eb88b53713c180e3e3d4054edd469140cfa9aa56bc1dc9",
+  "source_hashes": {
+    "blank": "c419a6d0039b2476a477235539fbbb2c51941fdd9ee239b960c3a0213d3dc9e5",
+    "video_text": "d4a2d863c31118813a048e65f4ba847f3d37680259770478578f0e617107f5a5",
+    "local_audio": "b444e5114b286e3488fe7b66bf59ee25c80f65d23e8cf1577013c131a461edd5"
+  },
+  "personal_identifiers_removed": true,
+  "media_included": false,
+  "bookmarks_included": false,
+  "packaging": {
+    "source": "local-native-structure-capture",
+    "personal_paths_removed": true,
+    "source_media_distributed": false,
+    "io_implementation": "bridge/runtime_io.py"
+  }
+}

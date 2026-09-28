@@ -1,0 +1,1001 @@
+{
+  "date": "2026-09-22",
+  "runtime": {
+    "status": "ok",
+    "app_version": "11.5.0",
+    "app_build": "11.5.0",
+    "primary_version": "11.5.0",
+    "compatibility_mode": false,
+    "bundle_id": "com.lemon.lvpro",
+    "libvideoeditor_sha256": "2041482a1aaeffa4d8bd69b836f8cf38807aaad8021bca410d567c59af3bccfa",
+    "runtime_profile": "jy14-headless-macos-11.5.0",
+    "codec_sha256": "ac202d8d28f15a4c4d512c7bdefa6e961320a6718407bbedc1338cb6ce62c0b0",
+    "runtime_hashes_verified": true,
+    "network_called": false,
+    "full_signature_check": "required before live creation"
+  },
+  "fixture": "Generated silent frame-coded video; four video segments: ordinary, constant 1.5x, native custom flat and nonflat curves.",
+  "independent_edit": "Rename track only, preserving speed contexts; original source untouched.",
+  "ui": {
+    "opened_played_saved_quit_cold_reopened": true,
+    "cold_reopen_playback_observed_from_zero_to_end": "00:00:11:02",
+    "properties_checked_after_cold_reopen": [
+      "1.5x",
+      "flat custom curve",
+      "nonflat custom curve"
+    ],
+    "source_audio": "intentionally silent; no audio acceptance claimed",
+    "events": [
+      {
+        "time_utc": "2026-09-22T08:17:16.587Z",
+        "label": "source-open"
+      },
+      {
+        "time_utc": "2026-09-22T08:17:56.850Z",
+        "label": "source-flat-curve"
+      },
+      {
+        "time_utc": "2026-09-22T08:18:53.658Z",
+        "label": "source-nonflat-curve"
+      },
+      {
+        "time_utc": "2026-09-22T08:19:15.066Z",
+        "label": "source-saved-before-close"
+      },
+      {
+        "time_utc": "2026-09-22T08:23:13.205Z",
+        "label": "target-first-open"
+      },
+      {
+        "time_utc": "2026-09-22T08:23:48.777Z",
+        "label": "target-play-start"
+      },
+      {
+        "time_utc": "2026-09-22T08:24:07.332Z",
+        "label": "target-play-observation"
+      },
+      {
+        "time_utc": "2026-09-22T08:24:41.387Z",
+        "label": "target-first-save"
+      },
+      {
+        "time_utc": "2026-09-22T08:31:31.883Z",
+        "label": "native-ui-copy-control-created"
+      },
+      {
+        "time_utc": "2026-09-22T08:32:30.014Z",
+        "label": "native-ui-copy-control-opened"
+      },
+      {
+        "time_utc": "2026-09-22T08:32:31.013Z",
+        "label": "native-ui-copy-control-saved"
+      },
+      {
+        "time_utc": "2026-09-22T08:47:40.007Z",
+        "label": "target-cold-reopen-loaded"
+      },
+      {
+        "time_utc": "2026-09-22T08:47:40.653Z",
+        "label": "target-cold-reopen-playing"
+      },
+      {
+        "time_utc": "2026-09-22T08:47:51.560Z",
+        "label": "target-cold-reopen-play-end"
+      },
+      {
+        "time_utc": "2026-09-22T08:48:21.344Z",
+        "label": "target-cold-reopen-constant-1.5"
+      },
+      {
+        "time_utc": "2026-09-22T08:48:45.777Z",
+        "label": "target-cold-reopen-flat-curve"
+      },
+      {
+        "time_utc": "2026-09-22T08:49:01.043Z",
+        "label": "target-cold-reopen-nonflat-curve"
+      },
+      {
+        "time_utc": "2026-09-22T08:49:14.560Z",
+        "label": "target-cold-reopen-saved"
+      }
+    ],
+    "local_capture_hashes": {
+      "native-ui-copy-control-created.jpg": "80bcd199965e42fc398949c811a0e1c63d00230b630552691d49bcbb518dc8ef",
+      "native-ui-copy-control-opened.jpg": "bbe0028767cfd4f02352de7b35df87912bd383a0823f7760d292f782e17499f8",
+      "native-ui-copy-control-saved.jpg": "d09c7a0f420d4fa32fc6e60f9d76bc885109b43ad5c8993a2ed4cbfb6acc54c5",
+      "source-flat-curve.jpg": "97cf19c90d5a5857e7fe8f3bb5ba2158a5a6bb48d916a8f2edea8186e8f82468",
+      "source-nonflat-curve.jpg": "d1a28303a156f860ae3c294ce8be60b6ca480705a35c163f43afbd0104da023a",
+      "source-open.jpg": "f86eca61481a51531f0721e8dd0c1d020c59ebf851cb04a9c913f204c956ad6c",
+      "source-saved-before-close.jpg": "30bc8cdbb62d3f843e9444cd93abed5c7fb5155529762307641a68ceb005d928",
+      "target-cold-reopen-constant-1.5.jpg": "954730ed1f29cafaccfc3500c622de2d4018f96f780c130a1a6c031d5d3607a3",
+      "target-cold-reopen-flat-curve.jpg": "d8350f65a831b40e1572dbed9bd622e37f624848645d7a4efb5b7ed30b3036df",
+      "target-cold-reopen-loaded.jpg": "695c8015571e53b7039908d5093aae8eab2a30177aa8348b321804c444ed9a77",
+      "target-cold-reopen-nonflat-curve.jpg": "e24a4ede41f02e46007bb448d8831460fbc3db4e9d2aa7a719b690baa89424b1",
+      "target-cold-reopen-play-end.jpg": "7320dbe92a546681b629fc5364f76842c934671c8cec3e4bea9da1c4319c7b80",
+      "target-cold-reopen-playing.jpg": "0b4317e272d5860f69611133639c3c9d26749e494e9aad01bbc099cf147b0738",
+      "target-cold-reopen-saved.jpg": "4421d3fd2eb84dd6473bc60ff17f46ea0023e41676d7631362c5c1c789810583",
+      "target-first-open.jpg": "b8e5cd8f4edbd72fe73814bab2204b37359feca53e18a19bc05a60a9f760f64e",
+      "target-first-save.jpg": "b7d3e0acf0bd132429686316f2902e1a91d9863b6f39bcdb68ccef3d2a14c640",
+      "target-play-observation.jpg": "f1630199825eee89b9b33e32d7fac1caa1524f27a7efaa4ed5d6c69b708f49ef",
+      "target-play-start.jpg": "dbb54e0754e05587bff542e11ebca90b53b823a569b456c3b67603f14fcd55e4"
+    }
+  },
+  "first_save_failure": "Nonflat linked segment/material averages changed from 1.4488572870241114 to 1.4516133714881843; original error and cipher scene retained.",
+  "native_gui_copy_control": "The editor Copy command, without the headless edit, produced the same average recomputation.",
+  "fixed_verification": {
+    "same_unchanged_failure_scene": {
+      "status": "verified",
+      "source_files_unchanged": true,
+      "four_mirrors_equal": true,
+      "preserved_fields_verified": true,
+      "native_curve_speed_recomputations": [
+        {
+          "timeline_id": "B0657EF3-DB3B-408D-9BBE-525A58C22B72",
+          "segment_id": "340BB657-0A7B-4B28-B4AB-B66133734A0B",
+          "speed_material_id": "ACEA4126-EB64-4CFE-9B64-D99608CD7BD8",
+          "expected_speed": 1.4488572870241114,
+          "native_speed": 1.4516133714881843,
+          "source_duration_us": 3000000,
+          "target_duration_us": 2066666,
+          "frame_rounding_us": 3931.3092504278757
+        }
+      ]
+    },
+    "after_cold_reopen": {
+      "status": "verified",
+      "source_files_unchanged": true,
+      "four_mirrors_equal": true,
+      "preserved_fields_verified": true,
+      "native_curve_speed_recomputations": [
+        {
+          "timeline_id": "B0657EF3-DB3B-408D-9BBE-525A58C22B72",
+          "segment_id": "340BB657-0A7B-4B28-B4AB-B66133734A0B",
+          "speed_material_id": "ACEA4126-EB64-4CFE-9B64-D99608CD7BD8",
+          "expected_speed": 1.4488572870241114,
+          "native_speed": 1.4516133714881845,
+          "source_duration_us": 3000000,
+          "target_duration_us": 2066666,
+          "frame_rounding_us": 3931.3092504278757
+        }
+      ]
+    }
+  },
+  "negative_replay": {
+    "comparisons": 30,
+    "all_expected": true,
+    "scope": "Independent JSON copies of the actual cold-saved capture; two-way defaults, nondefaults, curve/mode/reference changes."
+  },
+  "captured_documents": {
+    "source": {
+      "original_sha256": "58f4ceb49a70da0add2001e1bb30db7c5204b9180dcc6b7b9f45dfae7395b144",
+      "selected_speed_fields": {
+        "schema": "187.0.0",
+        "fps": "absent",
+        "last_saved_app_version": "11.5.0",
+        "segments": [
+          {
+            "index": 0,
+            "segment_id": "B61D88FA-FA30-44BB-9A78-2AE4B8D35F8F",
+            "material_id": "1A61BBB0-5A99-4FB3-B52E-A8584B6437C0",
+            "extra_material_refs": [
+              "46152B36-5B35-47EC-BDEC-B07C259DBBF0",
+              "57F85754-25A0-466E-BE34-88BB75B69938",
+              "AC78773E-30FB-40E5-9D8A-042EBD218C31",
+              "E74D9570-EBDC-4318-8FFB-89D2A0868A5E",
+              "6B25089E-186E-468E-BB0E-D84AF0C77069",
+              "3D75BC7F-DF8D-432C-A96F-F96E1443F420"
+            ],
+            "source_timerange": {
+              "duration": 3000000
+            },
+            "target_timerange": {
+              "duration": 3000000
+            },
+            "segment_speed": "absent",
+            "speed_material": {
+              "id": "46152B36-5B35-47EC-BDEC-B07C259DBBF0",
+              "type": "speed"
+            }
+          },
+          {
+            "index": 1,
+            "segment_id": "A07859B5-E145-4C94-B1B9-3FE25DF82F24",
+            "material_id": "CEDDED0F-A19A-44FC-A57B-A9AE3CC936F5",
+            "extra_material_refs": [
+              "8ED68AAA-B06C-40BA-A2FF-886D20F8BAE2",
+              "C6A4A831-0641-46C6-80B3-59C2DE89624C",
+              "1B2AD8E5-FD18-4D24-A839-F5A146C04109",
+              "6E3FFC69-5702-4B25-BAE0-C49AC0B49828",
+              "CE4ADCBE-7457-40B6-8DF6-B6A7E7CADDF8",
+              "50573F38-0F10-4D96-9AD7-FF3F74DC3582"
+            ],
+            "source_timerange": {
+              "duration": 4500000
+            },
+            "target_timerange": {
+              "start": 3000000,
+              "duration": 3000000
+            },
+            "segment_speed": 1.5,
+            "speed_material": {
+              "id": "8ED68AAA-B06C-40BA-A2FF-886D20F8BAE2",
+              "type": "speed",
+              "speed": 1.5
+            }
+          },
+          {
+            "index": 2,
+            "segment_id": "9ABEE0CA-8F70-4B46-A540-B540123894C5",
+            "material_id": "C2CFF924-7E98-4975-AEE1-144958A773D5",
+            "extra_material_refs": [
+              "F35D5AA7-E443-4578-91CD-0D24D5073D38",
+              "92C7C8C2-5365-4D32-ADA9-B01AD7F54458",
+              "6451338C-DC34-4E79-A7ED-4875E1013044",
+              "AB126459-BBB3-4015-89D9-5F0E8C6D8768",
+              "648F3D6E-E8AF-4B8C-B2D9-1CD36E24AEB1",
+              "F5E2F060-032A-4A9E-BBB0-80CBDDBB6B9B"
+            ],
+            "source_timerange": {
+              "duration": 3000000
+            },
+            "target_timerange": {
+              "start": 6000000,
+              "duration": 3000000
+            },
+            "segment_speed": "absent",
+            "speed_material": {
+              "id": "F35D5AA7-E443-4578-91CD-0D24D5073D38",
+              "type": "speed",
+              "mode": 1,
+              "curve_speed": {
+                "id": "6768730851543880206",
+                "name": "自定义",
+                "speed_points": [
+                  {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.25,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.75,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 1.0,
+                    "y": 1.0
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "index": 3,
+            "segment_id": "340BB657-0A7B-4B28-B4AB-B66133734A0B",
+            "material_id": "C928B403-A545-4BE2-9327-8EF80825D4E6",
+            "extra_material_refs": [
+              "ACEA4126-EB64-4CFE-9B64-D99608CD7BD8",
+              "AD737155-64D3-4AE0-8D8F-02CB3B29E928",
+              "3F819132-94E7-4570-B7C3-DACD77628197",
+              "0D42D854-E70B-4A08-B300-BF84747C34A0",
+              "3CF8B0BB-5E48-40DD-8625-D23402E1C81C",
+              "24AB9854-A102-452F-8B59-EBD9583DD45A"
+            ],
+            "source_timerange": {
+              "duration": 3000000
+            },
+            "target_timerange": {
+              "start": 9000000,
+              "duration": 2066666
+            },
+            "segment_speed": 1.4488572870241114,
+            "speed_material": {
+              "id": "ACEA4126-EB64-4CFE-9B64-D99608CD7BD8",
+              "type": "speed",
+              "mode": 1,
+              "speed": 1.4488572870241114,
+              "curve_speed": {
+                "id": "6768730851543880206",
+                "name": "自定义",
+                "speed_points": [
+                  {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.25,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.49822416759672616,
+                    "y": 4.257648468017578
+                  },
+                  {
+                    "x": 0.75,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 1.0,
+                    "y": 1.0
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "expected": {
+      "original_sha256": "7fcbf5c600026ae8017c00111aa340569f83516ed7fe8c3015bbd42f1ea90be4",
+      "selected_speed_fields": {
+        "schema": "187.0.0",
+        "fps": "absent",
+        "last_saved_app_version": "11.5.0",
+        "segments": [
+          {
+            "index": 0,
+            "segment_id": "B61D88FA-FA30-44BB-9A78-2AE4B8D35F8F",
+            "material_id": "1A61BBB0-5A99-4FB3-B52E-A8584B6437C0",
+            "extra_material_refs": [
+              "46152B36-5B35-47EC-BDEC-B07C259DBBF0",
+              "57F85754-25A0-466E-BE34-88BB75B69938",
+              "AC78773E-30FB-40E5-9D8A-042EBD218C31",
+              "E74D9570-EBDC-4318-8FFB-89D2A0868A5E",
+              "6B25089E-186E-468E-BB0E-D84AF0C77069",
+              "3D75BC7F-DF8D-432C-A96F-F96E1443F420"
+            ],
+            "source_timerange": {
+              "duration": 3000000
+            },
+            "target_timerange": {
+              "duration": 3000000
+            },
+            "segment_speed": "absent",
+            "speed_material": {
+              "id": "46152B36-5B35-47EC-BDEC-B07C259DBBF0",
+              "type": "speed"
+            }
+          },
+          {
+            "index": 1,
+            "segment_id": "A07859B5-E145-4C94-B1B9-3FE25DF82F24",
+            "material_id": "CEDDED0F-A19A-44FC-A57B-A9AE3CC936F5",
+            "extra_material_refs": [
+              "8ED68AAA-B06C-40BA-A2FF-886D20F8BAE2",
+              "C6A4A831-0641-46C6-80B3-59C2DE89624C",
+              "1B2AD8E5-FD18-4D24-A839-F5A146C04109",
+              "6E3FFC69-5702-4B25-BAE0-C49AC0B49828",
+              "CE4ADCBE-7457-40B6-8DF6-B6A7E7CADDF8",
+              "50573F38-0F10-4D96-9AD7-FF3F74DC3582"
+            ],
+            "source_timerange": {
+              "duration": 4500000
+            },
+            "target_timerange": {
+              "start": 3000000,
+              "duration": 3000000
+            },
+            "segment_speed": 1.5,
+            "speed_material": {
+              "id": "8ED68AAA-B06C-40BA-A2FF-886D20F8BAE2",
+              "type": "speed",
+              "speed": 1.5
+            }
+          },
+          {
+            "index": 2,
+            "segment_id": "9ABEE0CA-8F70-4B46-A540-B540123894C5",
+            "material_id": "C2CFF924-7E98-4975-AEE1-144958A773D5",
+            "extra_material_refs": [
+              "F35D5AA7-E443-4578-91CD-0D24D5073D38",
+              "92C7C8C2-5365-4D32-ADA9-B01AD7F54458",
+              "6451338C-DC34-4E79-A7ED-4875E1013044",
+              "AB126459-BBB3-4015-89D9-5F0E8C6D8768",
+              "648F3D6E-E8AF-4B8C-B2D9-1CD36E24AEB1",
+              "F5E2F060-032A-4A9E-BBB0-80CBDDBB6B9B"
+            ],
+            "source_timerange": {
+              "duration": 3000000
+            },
+            "target_timerange": {
+              "start": 6000000,
+              "duration": 3000000
+            },
+            "segment_speed": "absent",
+            "speed_material": {
+              "id": "F35D5AA7-E443-4578-91CD-0D24D5073D38",
+              "type": "speed",
+              "mode": 1,
+              "curve_speed": {
+                "id": "6768730851543880206",
+                "name": "自定义",
+                "speed_points": [
+                  {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.25,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.75,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 1.0,
+                    "y": 1.0
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "index": 3,
+            "segment_id": "340BB657-0A7B-4B28-B4AB-B66133734A0B",
+            "material_id": "C928B403-A545-4BE2-9327-8EF80825D4E6",
+            "extra_material_refs": [
+              "ACEA4126-EB64-4CFE-9B64-D99608CD7BD8",
+              "AD737155-64D3-4AE0-8D8F-02CB3B29E928",
+              "3F819132-94E7-4570-B7C3-DACD77628197",
+              "0D42D854-E70B-4A08-B300-BF84747C34A0",
+              "3CF8B0BB-5E48-40DD-8625-D23402E1C81C",
+              "24AB9854-A102-452F-8B59-EBD9583DD45A"
+            ],
+            "source_timerange": {
+              "duration": 3000000
+            },
+            "target_timerange": {
+              "start": 9000000,
+              "duration": 2066666
+            },
+            "segment_speed": 1.4488572870241114,
+            "speed_material": {
+              "id": "ACEA4126-EB64-4CFE-9B64-D99608CD7BD8",
+              "type": "speed",
+              "mode": 1,
+              "speed": 1.4488572870241114,
+              "curve_speed": {
+                "id": "6768730851543880206",
+                "name": "自定义",
+                "speed_points": [
+                  {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.25,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.49822416759672616,
+                    "y": 4.257648468017578
+                  },
+                  {
+                    "x": 0.75,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 1.0,
+                    "y": 1.0
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "first_save": {
+      "original_sha256": "98778a88642b0aa98a57dac499555cb2f8a7a0f095c5a57992eef1c93ecb1a77",
+      "selected_speed_fields": {
+        "schema": "187.0.0",
+        "fps": "absent",
+        "last_saved_app_version": "11.5.0",
+        "segments": [
+          {
+            "index": 0,
+            "segment_id": "B61D88FA-FA30-44BB-9A78-2AE4B8D35F8F",
+            "material_id": "1A61BBB0-5A99-4FB3-B52E-A8584B6437C0",
+            "extra_material_refs": [
+              "46152B36-5B35-47EC-BDEC-B07C259DBBF0",
+              "57F85754-25A0-466E-BE34-88BB75B69938",
+              "AC78773E-30FB-40E5-9D8A-042EBD218C31",
+              "E74D9570-EBDC-4318-8FFB-89D2A0868A5E",
+              "6B25089E-186E-468E-BB0E-D84AF0C77069",
+              "3D75BC7F-DF8D-432C-A96F-F96E1443F420"
+            ],
+            "source_timerange": {
+              "duration": 3000000
+            },
+            "target_timerange": {
+              "duration": 3000000
+            },
+            "segment_speed": "absent",
+            "speed_material": {
+              "id": "46152B36-5B35-47EC-BDEC-B07C259DBBF0",
+              "type": "speed"
+            }
+          },
+          {
+            "index": 1,
+            "segment_id": "A07859B5-E145-4C94-B1B9-3FE25DF82F24",
+            "material_id": "CEDDED0F-A19A-44FC-A57B-A9AE3CC936F5",
+            "extra_material_refs": [
+              "8ED68AAA-B06C-40BA-A2FF-886D20F8BAE2",
+              "C6A4A831-0641-46C6-80B3-59C2DE89624C",
+              "1B2AD8E5-FD18-4D24-A839-F5A146C04109",
+              "6E3FFC69-5702-4B25-BAE0-C49AC0B49828",
+              "CE4ADCBE-7457-40B6-8DF6-B6A7E7CADDF8",
+              "50573F38-0F10-4D96-9AD7-FF3F74DC3582"
+            ],
+            "source_timerange": {
+              "duration": 4500000
+            },
+            "target_timerange": {
+              "start": 3000000,
+              "duration": 3000000
+            },
+            "segment_speed": 1.5,
+            "speed_material": {
+              "id": "8ED68AAA-B06C-40BA-A2FF-886D20F8BAE2",
+              "type": "speed",
+              "speed": 1.5
+            }
+          },
+          {
+            "index": 2,
+            "segment_id": "9ABEE0CA-8F70-4B46-A540-B540123894C5",
+            "material_id": "C2CFF924-7E98-4975-AEE1-144958A773D5",
+            "extra_material_refs": [
+              "F35D5AA7-E443-4578-91CD-0D24D5073D38",
+              "92C7C8C2-5365-4D32-ADA9-B01AD7F54458",
+              "6451338C-DC34-4E79-A7ED-4875E1013044",
+              "AB126459-BBB3-4015-89D9-5F0E8C6D8768",
+              "648F3D6E-E8AF-4B8C-B2D9-1CD36E24AEB1",
+              "F5E2F060-032A-4A9E-BBB0-80CBDDBB6B9B"
+            ],
+            "source_timerange": {
+              "duration": 3000000
+            },
+            "target_timerange": {
+              "start": 6000000,
+              "duration": 3000000
+            },
+            "segment_speed": "absent",
+            "speed_material": {
+              "id": "F35D5AA7-E443-4578-91CD-0D24D5073D38",
+              "type": "speed",
+              "mode": 1,
+              "curve_speed": {
+                "id": "6768730851543880206",
+                "name": "自定义",
+                "speed_points": [
+                  {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.25,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.75,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 1.0,
+                    "y": 1.0
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "index": 3,
+            "segment_id": "340BB657-0A7B-4B28-B4AB-B66133734A0B",
+            "material_id": "C928B403-A545-4BE2-9327-8EF80825D4E6",
+            "extra_material_refs": [
+              "ACEA4126-EB64-4CFE-9B64-D99608CD7BD8",
+              "AD737155-64D3-4AE0-8D8F-02CB3B29E928",
+              "3F819132-94E7-4570-B7C3-DACD77628197",
+              "0D42D854-E70B-4A08-B300-BF84747C34A0",
+              "3CF8B0BB-5E48-40DD-8625-D23402E1C81C",
+              "24AB9854-A102-452F-8B59-EBD9583DD45A"
+            ],
+            "source_timerange": {
+              "duration": 3000000
+            },
+            "target_timerange": {
+              "start": 9000000,
+              "duration": 2066666
+            },
+            "segment_speed": 1.4516133714881843,
+            "speed_material": {
+              "id": "ACEA4126-EB64-4CFE-9B64-D99608CD7BD8",
+              "type": "speed",
+              "mode": 1,
+              "speed": 1.4516133714881843,
+              "curve_speed": {
+                "id": "6768730851543880206",
+                "name": "自定义",
+                "speed_points": [
+                  {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.25,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.49822416759672616,
+                    "y": 4.257648468017578
+                  },
+                  {
+                    "x": 0.75,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 1.0,
+                    "y": 1.0
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "native_ui_copy_control": {
+      "original_sha256": "302cff000897c349b30243394612debad7b993b81c655b54e7ca2edbbb467020",
+      "selected_speed_fields": {
+        "schema": "187.0.0",
+        "fps": "absent",
+        "last_saved_app_version": "11.5.0",
+        "segments": [
+          {
+            "index": 0,
+            "segment_id": "B61D88FA-FA30-44BB-9A78-2AE4B8D35F8F",
+            "material_id": "1A61BBB0-5A99-4FB3-B52E-A8584B6437C0",
+            "extra_material_refs": [
+              "46152B36-5B35-47EC-BDEC-B07C259DBBF0",
+              "57F85754-25A0-466E-BE34-88BB75B69938",
+              "AC78773E-30FB-40E5-9D8A-042EBD218C31",
+              "E74D9570-EBDC-4318-8FFB-89D2A0868A5E",
+              "6B25089E-186E-468E-BB0E-D84AF0C77069",
+              "3D75BC7F-DF8D-432C-A96F-F96E1443F420"
+            ],
+            "source_timerange": {
+              "duration": 3000000
+            },
+            "target_timerange": {
+              "duration": 3000000
+            },
+            "segment_speed": "absent",
+            "speed_material": {
+              "id": "46152B36-5B35-47EC-BDEC-B07C259DBBF0",
+              "type": "speed"
+            }
+          },
+          {
+            "index": 1,
+            "segment_id": "A07859B5-E145-4C94-B1B9-3FE25DF82F24",
+            "material_id": "CEDDED0F-A19A-44FC-A57B-A9AE3CC936F5",
+            "extra_material_refs": [
+              "8ED68AAA-B06C-40BA-A2FF-886D20F8BAE2",
+              "C6A4A831-0641-46C6-80B3-59C2DE89624C",
+              "1B2AD8E5-FD18-4D24-A839-F5A146C04109",
+              "6E3FFC69-5702-4B25-BAE0-C49AC0B49828",
+              "CE4ADCBE-7457-40B6-8DF6-B6A7E7CADDF8",
+              "50573F38-0F10-4D96-9AD7-FF3F74DC3582"
+            ],
+            "source_timerange": {
+              "duration": 4500000
+            },
+            "target_timerange": {
+              "start": 3000000,
+              "duration": 3000000
+            },
+            "segment_speed": 1.5,
+            "speed_material": {
+              "id": "8ED68AAA-B06C-40BA-A2FF-886D20F8BAE2",
+              "type": "speed",
+              "speed": 1.5
+            }
+          },
+          {
+            "index": 2,
+            "segment_id": "9ABEE0CA-8F70-4B46-A540-B540123894C5",
+            "material_id": "C2CFF924-7E98-4975-AEE1-144958A773D5",
+            "extra_material_refs": [
+              "F35D5AA7-E443-4578-91CD-0D24D5073D38",
+              "92C7C8C2-5365-4D32-ADA9-B01AD7F54458",
+              "6451338C-DC34-4E79-A7ED-4875E1013044",
+              "AB126459-BBB3-4015-89D9-5F0E8C6D8768",
+              "648F3D6E-E8AF-4B8C-B2D9-1CD36E24AEB1",
+              "F5E2F060-032A-4A9E-BBB0-80CBDDBB6B9B"
+            ],
+            "source_timerange": {
+              "duration": 3000000
+            },
+            "target_timerange": {
+              "start": 6000000,
+              "duration": 3000000
+            },
+            "segment_speed": "absent",
+            "speed_material": {
+              "id": "F35D5AA7-E443-4578-91CD-0D24D5073D38",
+              "type": "speed",
+              "mode": 1,
+              "curve_speed": {
+                "id": "6768730851543880206",
+                "name": "自定义",
+                "speed_points": [
+                  {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.25,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.75,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 1.0,
+                    "y": 1.0
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "index": 3,
+            "segment_id": "340BB657-0A7B-4B28-B4AB-B66133734A0B",
+            "material_id": "C928B403-A545-4BE2-9327-8EF80825D4E6",
+            "extra_material_refs": [
+              "ACEA4126-EB64-4CFE-9B64-D99608CD7BD8",
+              "AD737155-64D3-4AE0-8D8F-02CB3B29E928",
+              "3F819132-94E7-4570-B7C3-DACD77628197",
+              "0D42D854-E70B-4A08-B300-BF84747C34A0",
+              "3CF8B0BB-5E48-40DD-8625-D23402E1C81C",
+              "24AB9854-A102-452F-8B59-EBD9583DD45A"
+            ],
+            "source_timerange": {
+              "duration": 3000000
+            },
+            "target_timerange": {
+              "start": 9000000,
+              "duration": 2066666
+            },
+            "segment_speed": 1.4516133714881843,
+            "speed_material": {
+              "id": "ACEA4126-EB64-4CFE-9B64-D99608CD7BD8",
+              "type": "speed",
+              "mode": 1,
+              "speed": 1.4516133714881843,
+              "curve_speed": {
+                "id": "6768730851543880206",
+                "name": "自定义",
+                "speed_points": [
+                  {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.25,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.49822416759672616,
+                    "y": 4.257648468017578
+                  },
+                  {
+                    "x": 0.75,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 1.0,
+                    "y": 1.0
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cold_reopen": {
+      "original_sha256": "68bccb6bd5de6c7d9ab48a33fdebc942f28d545e94027403fe7e4dfe80810d93",
+      "selected_speed_fields": {
+        "schema": "187.0.0",
+        "fps": "absent",
+        "last_saved_app_version": "11.5.0",
+        "segments": [
+          {
+            "index": 0,
+            "segment_id": "B61D88FA-FA30-44BB-9A78-2AE4B8D35F8F",
+            "material_id": "1A61BBB0-5A99-4FB3-B52E-A8584B6437C0",
+            "extra_material_refs": [
+              "46152B36-5B35-47EC-BDEC-B07C259DBBF0",
+              "57F85754-25A0-466E-BE34-88BB75B69938",
+              "AC78773E-30FB-40E5-9D8A-042EBD218C31",
+              "E74D9570-EBDC-4318-8FFB-89D2A0868A5E",
+              "6B25089E-186E-468E-BB0E-D84AF0C77069",
+              "3D75BC7F-DF8D-432C-A96F-F96E1443F420"
+            ],
+            "source_timerange": {
+              "duration": 3000000
+            },
+            "target_timerange": {
+              "duration": 3000000
+            },
+            "segment_speed": "absent",
+            "speed_material": {
+              "id": "46152B36-5B35-47EC-BDEC-B07C259DBBF0",
+              "type": "speed"
+            }
+          },
+          {
+            "index": 1,
+            "segment_id": "A07859B5-E145-4C94-B1B9-3FE25DF82F24",
+            "material_id": "CEDDED0F-A19A-44FC-A57B-A9AE3CC936F5",
+            "extra_material_refs": [
+              "8ED68AAA-B06C-40BA-A2FF-886D20F8BAE2",
+              "C6A4A831-0641-46C6-80B3-59C2DE89624C",
+              "1B2AD8E5-FD18-4D24-A839-F5A146C04109",
+              "6E3FFC69-5702-4B25-BAE0-C49AC0B49828",
+              "CE4ADCBE-7457-40B6-8DF6-B6A7E7CADDF8",
+              "50573F38-0F10-4D96-9AD7-FF3F74DC3582"
+            ],
+            "source_timerange": {
+              "duration": 4500000
+            },
+            "target_timerange": {
+              "start": 3000000,
+              "duration": 3000000
+            },
+            "segment_speed": 1.5,
+            "speed_material": {
+              "id": "8ED68AAA-B06C-40BA-A2FF-886D20F8BAE2",
+              "type": "speed",
+              "speed": 1.5
+            }
+          },
+          {
+            "index": 2,
+            "segment_id": "9ABEE0CA-8F70-4B46-A540-B540123894C5",
+            "material_id": "C2CFF924-7E98-4975-AEE1-144958A773D5",
+            "extra_material_refs": [
+              "F35D5AA7-E443-4578-91CD-0D24D5073D38",
+              "92C7C8C2-5365-4D32-ADA9-B01AD7F54458",
+              "6451338C-DC34-4E79-A7ED-4875E1013044",
+              "AB126459-BBB3-4015-89D9-5F0E8C6D8768",
+              "648F3D6E-E8AF-4B8C-B2D9-1CD36E24AEB1",
+              "F5E2F060-032A-4A9E-BBB0-80CBDDBB6B9B"
+            ],
+            "source_timerange": {
+              "duration": 3000000
+            },
+            "target_timerange": {
+              "start": 6000000,
+              "duration": 3000000
+            },
+            "segment_speed": "absent",
+            "speed_material": {
+              "id": "F35D5AA7-E443-4578-91CD-0D24D5073D38",
+              "type": "speed",
+              "mode": 1,
+              "curve_speed": {
+                "id": "6768730851543880206",
+                "name": "自定义",
+                "speed_points": [
+                  {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.25,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.75,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 1.0,
+                    "y": 1.0
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "index": 3,
+            "segment_id": "340BB657-0A7B-4B28-B4AB-B66133734A0B",
+            "material_id": "C928B403-A545-4BE2-9327-8EF80825D4E6",
+            "extra_material_refs": [
+              "ACEA4126-EB64-4CFE-9B64-D99608CD7BD8",
+              "AD737155-64D3-4AE0-8D8F-02CB3B29E928",
+              "3F819132-94E7-4570-B7C3-DACD77628197",
+              "0D42D854-E70B-4A08-B300-BF84747C34A0",
+              "3CF8B0BB-5E48-40DD-8625-D23402E1C81C",
+              "24AB9854-A102-452F-8B59-EBD9583DD45A"
+            ],
+            "source_timerange": {
+              "duration": 3000000
+            },
+            "target_timerange": {
+              "start": 9000000,
+              "duration": 2066666
+            },
+            "segment_speed": 1.4516133714881845,
+            "speed_material": {
+              "id": "ACEA4126-EB64-4CFE-9B64-D99608CD7BD8",
+              "type": "speed",
+              "mode": 1,
+              "speed": 1.4516133714881845,
+              "curve_speed": {
+                "id": "6768730851543880206",
+                "name": "自定义",
+                "speed_points": [
+                  {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.25,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 0.49822416759672616,
+                    "y": 4.257648468017578
+                  },
+                  {
+                    "x": 0.75,
+                    "y": 1.0
+                  },
+                  {
+                    "x": 1.0,
+                    "y": 1.0
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "scope_limits": [
+    "Local codec ac202d8d, not upstream pinned b6533eb5",
+    "mode=1 null/empty shapes have parser evidence only; final candidate rejects missing speed in these contexts.",
+    "This session covers video only; ordinary audio save evidence is separately recorded in audio-save-115.json. No compound, arbitrary preset or curve export acceptance.",
+    "UI screenshots and full raw documents retained locally; selected fields are not full raw snapshots"
+  ]
+}

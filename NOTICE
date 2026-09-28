@@ -1,0 +1,15 @@
+Jianying Headless
+Copyright 2026 mcncarl and contributors.
+
+This is an independent automation project, not an official Jianying/ByteDance
+SDK or an endorsed product. Jianying and associated names remain the property
+of their respective owners.
+
+The bridge interface declarations retain their jy-draftc attribution.
+Historical pyJianYingDraft use and the licenses of external tools are described
+in THIRD_PARTY_NOTICES.md. Those notices do not grant rights to proprietary
+engines, media, effects, fonts, account entitlements, or service access.
+
+This project's original portions are subject to the Personal Learning and
+Non-Commercial Use License in LICENSE. Third-party portions retain their
+original licenses; copies of those texts do not license the whole project.

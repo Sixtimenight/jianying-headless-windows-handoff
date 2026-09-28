@@ -1,0 +1,23 @@
+{
+  "schema": "jy14-headless-plan/v1",
+  "name": "Hypit素材交接示例",
+  "canvas": {"width": 1080, "height": 1920, "fps": 30},
+  "tracks": [
+    {"type": "video", "name": "Hypit分镜画面", "segments": [
+      {"source": "/absolute/path/to/hypit-shot-1.mp4", "start_us": 0,
+       "duration_us": 2000000, "source_start_us": 0, "volume": 0},
+      {"source": "/absolute/path/to/hypit-shot-2.mp4", "start_us": 2000000,
+       "duration_us": 2000000, "source_start_us": 0, "volume": 0}
+    ]},
+    {"type": "audio", "name": "独立配音", "segments": [
+      {"source": "/absolute/path/to/hypit-voice.wav", "start_us": 0,
+       "duration_us": 4000000, "source_start_us": 0, "volume": 1}
+    ]},
+    {"type": "text", "name": "可编辑字幕", "segments": [
+      {"text": "第一段画面的字幕", "start_us": 0, "duration_us": 2000000,
+       "size": 6, "x": 0, "y": -0.7, "color": "#FFFFFF", "border_color": "#000000", "border_width": 0.05},
+      {"text": "第二段画面的字幕", "start_us": 2000000, "duration_us": 2000000,
+       "size": 6, "x": 0, "y": -0.7, "color": "#FFFFFF", "border_color": "#000000", "border_width": 0.05}
+    ]}
+  ]
+}

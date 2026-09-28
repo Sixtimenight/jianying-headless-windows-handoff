@@ -1,0 +1,60 @@
+# Runtime and audit artifacts remain local.
+/work/
+/outputs/
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Rebuilt locally from our bridge source; not a bundled official engine.
+/bridge/jy14_codec_hardened_11_4
+/bridge/jy14_codec_hardened
+/bridge/jy14_codec_pipe*
+
+# Official applications, binaries, user drafts, media and credential stores
+# must never be added as project content.
+*.dylib
+*.so
+*.dll
+*.exe
+*.app/
+*.mp4
+*.mov
+*.mp3
+*.wav
+*.aac
+*.m4a
+*.png
+*.jpg
+*.jpeg
+*.gif
+# Explicitly approved IG case previews only; all other media stays excluded.
+!/docs/media/hypit-original-frames.png
+!/docs/media/jianying-import-frames.png
+!/docs/media/hypit-original-preview.mp4
+!/docs/media/jianying-import-preview.mp4
+*.ttf
+*.otf
+*.sqlite
+*.sqlite3
+*.db
+*.keychain*
+*.plist
+*.log
+draft_info.json
+draft_meta_info.json
+root_meta_info.json
+draft_content.json
+key_value.json
+
+# Local Windows native builds (codec bridge, export helper) and their reports
+/tools/build/
+*.obj
+*.pdb
+*.ilk
+*.tmp

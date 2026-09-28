@@ -1,0 +1,14 @@
+{
+  "schema": "jianying-headless-project/v1",
+  "id": "jianying-headless",
+  "version": "0.3.0-windows-local-preview",
+  "primary_app_version": "11.5.0",
+  "compatibility_app_versions": ["11.4.2"],
+  "skill": "skills/yichen-jianying-edit",
+  "native_app": "com.lemon.lvpro",
+  "native_app_distributed": false,
+  "native_resources_distributed": false,
+  "clean_machine_acceptance": "not-completed",
+  "windows_native_profile": "11.5.0.14471",
+  "windows_native_ui_acceptance": "passed-local-basic-2026-09-27"
+}

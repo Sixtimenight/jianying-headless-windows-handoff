@@ -1,0 +1,15 @@
+{
+  "schema": "jy14-headless-plan/v1",
+  "name": "独立剪辑示例",
+  "canvas": {"width": 1280, "height": 720, "fps": 30},
+  "tracks": [
+    {"type": "video", "name": "主视频", "segments": [
+      {"source": "/absolute/path/to/source.mp4", "start_us": 0, "duration_us": 2000000,
+       "source_start_us": 0, "source_duration_us": 2000000, "speed": 1, "volume": 1}
+    ]},
+    {"type": "text", "name": "字幕", "segments": [
+      {"text": "可继续编辑的字幕", "start_us": 0, "duration_us": 2000000,
+       "size": 6, "x": 0, "y": -0.78, "color": "#FFFFFF", "border_color": "#000000", "border_width": 0.05}
+    ]}
+  ]
+}

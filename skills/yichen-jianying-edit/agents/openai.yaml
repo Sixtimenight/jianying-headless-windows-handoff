@@ -1,0 +1,4 @@
+interface:
+  display_name: "剪映无界面剪辑"
+  short_description: "基于本机匹配版剪映生成原生草稿、编辑独立副本，并按明确要求导出成片"
+  default_prompt: "用 $yichen-jianying-edit 处理这段视频，先检查核心项目与剪映环境，按本次要求交付可继续编辑的原生草稿。"

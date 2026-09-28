@@ -1,0 +1,1043 @@
+{
+  "date": "2026-09-22",
+  "runtime": {
+    "status": "ok",
+    "app_version": "11.5.0",
+    "app_build": "11.5.0",
+    "primary_version": "11.5.0",
+    "compatibility_mode": false,
+    "bundle_id": "com.lemon.lvpro",
+    "libvideoeditor_sha256": "2041482a1aaeffa4d8bd69b836f8cf38807aaad8021bca410d567c59af3bccfa",
+    "runtime_profile": "jy14-headless-macos-11.5.0",
+    "codec_sha256": "ac202d8d28f15a4c4d512c7bdefa6e961320a6718407bbedc1338cb6ce62c0b0",
+    "runtime_hashes_verified": true,
+    "network_called": false,
+    "full_signature_check": "required before live creation"
+  },
+  "fixture": "Six-second frame-coded video plus generated 440 Hz tone. Audio target ranges: 3 s at 1x and 3 s at 1.5x (4.5 s source).",
+  "edit": "Rename video and audio tracks in an independent copy; no speed edits during copy acceptance.",
+  "ui": {
+    "save_quit_cold_reopen_play_save_quit": true,
+    "cold_playback_end": "00:00:06:00",
+    "cold_audio_panels": [
+      "1.00x, source 3.0 s / target 3.0 s",
+      "1.50x, source 4.5 s / target 3.0 s"
+    ],
+    "observation_limit": "Playhead advancement and green audio meters observed. No exported-audio or subjective listening acceptance claimed.",
+    "transport_note": "Sky connection ended after first-copy play action; reconnect observed playback at end. Cold playback separately observed at zero, 2.6 s and end.",
+    "events": [
+      {
+        "time_utc": "2026-09-22T09:32:35.647Z",
+        "label": "source-home"
+      },
+      {
+        "time_utc": "2026-09-22T09:32:47.939Z",
+        "label": "source-open"
+      },
+      {
+        "time_utc": "2026-09-22T09:33:01.105Z",
+        "label": "source-audio-unit"
+      },
+      {
+        "time_utc": "2026-09-22T09:33:19.166Z",
+        "label": "source-audio-unit-speed"
+      },
+      {
+        "time_utc": "2026-09-22T09:33:20.199Z",
+        "label": "source-audio-1_5-speed"
+      },
+      {
+        "time_utc": "2026-09-22T09:33:37.159Z",
+        "label": "source-video-selected"
+      },
+      {
+        "time_utc": "2026-09-22T09:33:48.969Z",
+        "label": "source-video-speed"
+      },
+      {
+        "time_utc": "2026-09-22T09:34:10.060Z",
+        "label": "source-curve-options"
+      },
+      {
+        "time_utc": "2026-09-22T09:34:38.245Z",
+        "label": "source-video-custom"
+      },
+      {
+        "time_utc": "2026-09-22T09:34:49.214Z",
+        "label": "source-video-custom-reselected"
+      },
+      {
+        "time_utc": "2026-09-22T09:34:58.915Z",
+        "label": "source-custom-settings"
+      },
+      {
+        "time_utc": "2026-09-22T09:35:26.384Z",
+        "label": "source-curve-set-none"
+      },
+      {
+        "time_utc": "2026-09-22T09:35:35.651Z",
+        "label": "source-third-video"
+      },
+      {
+        "time_utc": "2026-09-22T09:35:51.214Z",
+        "label": "source-third-custom-controls"
+      },
+      {
+        "time_utc": "2026-09-22T09:36:09.603Z",
+        "label": "source-curve-expanded"
+      },
+      {
+        "time_utc": "2026-09-22T09:36:37.665Z",
+        "label": "source-current-state"
+      },
+      {
+        "time_utc": "2026-09-22T09:36:50.123Z",
+        "label": "source-curve-before-reset"
+      },
+      {
+        "time_utc": "2026-09-22T09:36:51.242Z",
+        "label": "source-curve-after-reset"
+      },
+      {
+        "time_utc": "2026-09-22T09:37:03.090Z",
+        "label": "source-play-start"
+      },
+      {
+        "time_utc": "2026-09-22T09:37:23.536Z",
+        "label": "source-play-end"
+      },
+      {
+        "time_utc": "2026-09-22T09:37:29.406Z",
+        "label": "source-saved"
+      },
+      {
+        "time_utc": "2026-09-22T09:37:29.719Z",
+        "label": "source-quit"
+      },
+      {
+        "time_utc": "2026-09-22T09:41:59.974Z",
+        "label": "target-home"
+      },
+      {
+        "time_utc": "2026-09-22T09:42:17.767Z",
+        "label": "target-home-loaded"
+      },
+      {
+        "time_utc": "2026-09-22T09:42:38.741Z",
+        "label": "target-open"
+      },
+      {
+        "time_utc": "2026-09-22T09:42:58.713Z",
+        "label": "target-ready"
+      },
+      {
+        "time_utc": "2026-09-22T09:43:18.433Z",
+        "label": "target-audio-selected"
+      },
+      {
+        "time_utc": "2026-09-22T09:43:45.122Z",
+        "label": "target-audio-unit-speed"
+      },
+      {
+        "time_utc": "2026-09-22T09:43:53.016Z",
+        "label": "target-audio-1_5-speed"
+      },
+      {
+        "time_utc": "2026-09-22T09:44:22.191Z",
+        "label": "target-before-play"
+      },
+      {
+        "time_utc": "2026-09-22T09:44:38.864Z",
+        "label": "target-playing"
+      },
+      {
+        "time_utc": "2026-09-22T09:45:06.926Z",
+        "label": "target-play-end"
+      },
+      {
+        "time_utc": "2026-09-22T09:45:07.494Z",
+        "label": "target-first-saved"
+      },
+      {
+        "time_utc": "2026-09-22T09:45:07.508Z",
+        "label": "target-first-quit"
+      },
+      {
+        "time_utc": "2026-09-22T09:47:49.567Z",
+        "label": "v4-home"
+      },
+      {
+        "time_utc": "2026-09-22T09:48:07.309Z",
+        "label": "v4-open"
+      },
+      {
+        "time_utc": "2026-09-22T09:48:50.073Z",
+        "label": "v4-reconnected"
+      },
+      {
+        "time_utc": "2026-09-22T09:49:11.407Z",
+        "label": "v4-first-saved"
+      },
+      {
+        "time_utc": "2026-09-22T09:49:11.416Z",
+        "label": "v4-first-quit"
+      },
+      {
+        "time_utc": "2026-09-22T09:50:05.517Z",
+        "label": "v4-cold-home"
+      },
+      {
+        "time_utc": "2026-09-22T09:50:20.247Z",
+        "label": "v4-cold-open"
+      },
+      {
+        "time_utc": "2026-09-22T09:50:43.292Z",
+        "label": "v4-cold-loaded"
+      },
+      {
+        "time_utc": "2026-09-22T09:51:01.549Z",
+        "label": "v4-cold-playing"
+      },
+      {
+        "time_utc": "2026-09-22T09:54:25.782Z",
+        "label": "v4-cold-play-end"
+      },
+      {
+        "time_utc": "2026-09-22T09:54:38.369Z",
+        "label": "v4-cold-audio-unit"
+      },
+      {
+        "time_utc": "2026-09-22T09:54:39.544Z",
+        "label": "v4-cold-audio-150"
+      }
+    ],
+    "capture_hashes": {
+      "source-audio-1_5-speed.jpg": "22619df35b3416b66c5377d01b42f85b9b8d1842fe41feccf2b3ac7b5d422365",
+      "source-audio-unit-speed.jpg": "f0611fb405179419fb95baeaf71d2b50e0db0bdf9dc9a4fc98e30c6a77f66dff",
+      "source-audio-unit.jpg": "20c5c4bd67cf54ce6d711644ad4284f6c5dfc926f62c3b473a984c6fb4492e2a",
+      "source-current-state.jpg": "c1a57e4b9a5fd251a21095f7700281a7534a132e2245a0f583d9182c92e7ba66",
+      "source-curve-after-reset.jpg": "f349320c5d6517c9b6e65422ee5bb461e895b0bb001becc58c4c6c9428541df3",
+      "source-curve-before-reset.jpg": "9b97724019bb6c66e7d9ee48899be4877bb3f7f1364d2baa3d2537aea874ce36",
+      "source-curve-expanded.jpg": "e19b028c073062f508f5f2acc0f7f4c1cdd4925ad1f812c9ee80ef5c31c03858",
+      "source-curve-options.jpg": "82f268198cd905faa49516be2db7464a7a442dd3a45c8773cb034e3036bf58b8",
+      "source-curve-set-none.jpg": "bc7ced782f4883d01f91dc3d632c9fd1a30cf25ed16afa2754fd8544e3b59a35",
+      "source-custom-settings.jpg": "05e3aedae0b756bf7c8ad4a0f6430c77385fe318d9e1c41a5aa047cb7e8fddb8",
+      "source-home.jpg": "14be4cf68960d29c19753c4de8430ee3767901932ff376d1ecb49dd24b64ce8b",
+      "source-open.jpg": "4924ca834a306dad5913804fd7210894709dbc8e85ab7b38ebb2791f5ac3adcd",
+      "source-play-end.jpg": "70b21e16b2bec99b81a9d2bf7f6c33af3b3f022e46927db5efb63a4bc6cc13a3",
+      "source-play-start.jpg": "a7dbc44ce196c99da97489fb9246048ddcaee1348a3dcb04d114e2d883e2d390",
+      "source-saved.jpg": "de2d7979759cd2e811a61ea409e07bda3776fbc7f314bec4870a87018a8cc50c",
+      "source-third-custom-controls.jpg": "596d2472374194126c616e159249a00b1bb237527948b110ba94d229d206df58",
+      "source-third-video.jpg": "0dc8eabef0bcbf9078f7cd1316c1e21a105e7b5b209c1e25bed2bf1507d79da9",
+      "source-video-custom-reselected.jpg": "f85798540000f4f3ccf62fd60b784dc71cb973162d0273ff633f7cb7c799793a",
+      "source-video-custom.jpg": "d6f2607fbef3c0a6a892d067215cacb4f8a5a8410d1895e2f6f537eed72e8b7e",
+      "source-video-selected.jpg": "605f5af68879509f12e367e6feb9e1b9dd7fc9337ebfa70bed09f8bce7f00daf",
+      "source-video-speed.jpg": "f5b1a0e826c92599a5915d3b57e32b11d7aea50f5f92bbefd1c5d1fc1ebc8c4a",
+      "target-audio-1_5-speed.jpg": "aff357d2553d6f7cfb568543ee88f629b70a8edfdfe92f9154bcba1898146e79",
+      "target-audio-selected.jpg": "5da5be0982ff96e88e707cb5f98a409066da35d9159e37e01ffea648b2154186",
+      "target-audio-unit-speed.jpg": "7b5fead9173525349c8523a9f67dd35bf391a81096207d8cf833af5a30ca829e",
+      "target-before-play.jpg": "ec8d85e4b0d44cde9356702afae0bbd81993fdf32fec0529ec0567fe7d2593ee",
+      "target-first-saved.jpg": "5796124b627f4f7562285b8b40c97c08014dea506e01cbf03fc9c1dc7bf55344",
+      "target-home-loaded.jpg": "ed3420a82177bc3f38096288c6d8699f873c24fb4ffc71fc7164fd053737e910",
+      "target-home.jpg": "d57bffaeb404ca9e10d1b391fb73db4f17a038d14f7ad2abfd1a5d1cb5278023",
+      "target-open.jpg": "bf141178b46dff803cc3f74c20c740563f09ce3e3f09d66a950e03df0d1352ff",
+      "target-play-end.jpg": "af1ed9e0dae281e0ea89792a0ede10bf8ab6b3127e73ae0b00024a0a4223cd31",
+      "target-playing.jpg": "1db9986623a5d432ffd1170c63944a9c1b0cff446a30bbb3a7e9336e9f034aad",
+      "target-ready.jpg": "32f15366dc848d1f11ea192dd0c30be39702c5af183e40a88e25bca59b139e6c",
+      "v4-cold-audio-150.jpg": "9726459b6e536bd5f531ed517241251086cdadd015325bef573c64f2f393bf36",
+      "v4-cold-audio-unit.jpg": "b0c8b45583e5133d0e3bd0d25e3c5eb67f74e1d71080d5c78635d8725870736c",
+      "v4-cold-home.jpg": "f3e50fcb3b5ff1e7a04f0d4e95cf06d8c35ec92531719f96006000a9ab761006",
+      "v4-cold-loaded.jpg": "acb3704d2ea534ce0e04e56f860a3492a2ff5f38ccdf26e223a839538c7e6015",
+      "v4-cold-open.jpg": "c84bdca2936a31e5f4d2075fb913042c88021581fd975e19845f7e603ac04427",
+      "v4-cold-play-end.jpg": "8d919400f5c71d9c2f19f10e626003cef3177d9fc3117e726e064100241cb46e",
+      "v4-cold-playing.jpg": "59638bb8ec205fdef50bc37074211ff67af8ece29e7869e362121fc6688e217d",
+      "v4-first-saved.jpg": "ff60858f8ef9967d2d610e89072a213da0b9356dbf09f9391311e8a8f0d478d4",
+      "v4-home.jpg": "357e1b6f1b0e1256a6f5dd5549113436040127b13244b0a2bb707c748a8fdddb",
+      "v4-open.jpg": "b80b15341cefc77465108d6f426f036d9454e81e0c96b5b1f00923b058efbce8",
+      "v4-reconnected.jpg": "3f9a084736b7c47724413f4c65307eff03f64326d1aac346f03457e14ba1a523"
+    }
+  },
+  "native_curve_actions": {
+    "custom_then_none": "Saved as ordinary mode (mode and curve omitted).",
+    "custom_point_moved_then_reset": "Saved mode=1 custom curve, five ordered points all y=1; not an empty curve.",
+    "limit": "These observed operations did not produce mode=1 null/empty. No claim that all UI paths were searched."
+  },
+  "first_copy_rejection": {
+    "error": "Preserved field disappeared: /config/export_range",
+    "expected_export_range": {
+      "start": 5966666,
+      "duration": 33334
+    },
+    "actual_config": {},
+    "disposition": "Preserved as a real rejected setting change. Comparator not relaxed. New independent copy uses the now-saved no-range source."
+  },
+  "clean_fixture": "A separate edit copy was built from the saved no-export-range source. Original failed expected and actual retained. Export range comparison unchanged.",
+  "verification": {
+    "clean-first-save": {
+      "status": "verified",
+      "operations": 2,
+      "duration_us": 6000000,
+      "tracks": 2,
+      "source_files_unchanged": true,
+      "preserved_fields_verified": true,
+      "four_mirrors_equal": true,
+      "video_exported": false,
+      "nested_timelines": 0,
+      "compound_sidecars_verified": [],
+      "native_empty_companion_identity_changes": [],
+      "native_schema_upgrades": [],
+      "native_provenance_restamps": [],
+      "native_curve_speed_recomputations": [],
+      "native_frame_quantization": [],
+      "font_files_verified": 0,
+      "native_ui_acceptance": "requires separate open/play/save/cold-reopen evidence"
+    },
+    "clean-cold-save": {
+      "status": "verified",
+      "operations": 2,
+      "duration_us": 6000000,
+      "tracks": 2,
+      "source_files_unchanged": true,
+      "preserved_fields_verified": true,
+      "four_mirrors_equal": true,
+      "video_exported": false,
+      "nested_timelines": 0,
+      "compound_sidecars_verified": [],
+      "native_empty_companion_identity_changes": [],
+      "native_schema_upgrades": [],
+      "native_provenance_restamps": [
+        {
+          "timeline_id": "0CB198AD-8DA5-412D-8534-0DF5653525DD",
+          "field_names": [
+            "hard_disk_id"
+          ]
+        }
+      ],
+      "native_curve_speed_recomputations": [],
+      "native_frame_quantization": [],
+      "font_files_verified": 0,
+      "native_ui_acceptance": "requires separate open/play/save/cold-reopen evidence"
+    }
+  },
+  "offline_controls": {
+    "comparisons": 42,
+    "all_expected": true,
+    "details": [
+      {
+        "case": "audio-unit-owner-0",
+        "direction": 0,
+        "accepted": true,
+        "error": null
+      },
+      {
+        "case": "audio-unit-owner-0",
+        "direction": 1,
+        "accepted": true,
+        "error": null
+      },
+      {
+        "case": "audio-nondefault-omission-owner-0",
+        "direction": 0,
+        "accepted": false,
+        "error": "Preserved numeric value changed: /materials/speeds/FE70E24C-402F-4D0F-87E3-2879020284CA/speed"
+      },
+      {
+        "case": "audio-nondefault-omission-owner-0",
+        "direction": 1,
+        "accepted": false,
+        "error": "Preserved numeric value changed: /materials/speeds/FE70E24C-402F-4D0F-87E3-2879020284CA/speed"
+      },
+      {
+        "case": "audio-nondefault-value-owner-0",
+        "direction": 0,
+        "accepted": false,
+        "error": "Preserved numeric value changed: /materials/speeds/FE70E24C-402F-4D0F-87E3-2879020284CA/speed"
+      },
+      {
+        "case": "audio-nondefault-value-owner-0",
+        "direction": 1,
+        "accepted": false,
+        "error": "Preserved numeric value changed: /materials/speeds/FE70E24C-402F-4D0F-87E3-2879020284CA/speed"
+      },
+      {
+        "case": "audio-unit-owner-1",
+        "direction": 0,
+        "accepted": true,
+        "error": null
+      },
+      {
+        "case": "audio-unit-owner-1",
+        "direction": 1,
+        "accepted": true,
+        "error": null
+      },
+      {
+        "case": "audio-nondefault-omission-owner-1",
+        "direction": 0,
+        "accepted": false,
+        "error": "Preserved numeric value changed: /tracks/7C4583DE-84BD-4808-8043-B884D90B6574/segments/91931480-05DA-4D7C-BE4F-C3153FEEA106/speed"
+      },
+      {
+        "case": "audio-nondefault-omission-owner-1",
+        "direction": 1,
+        "accepted": false,
+        "error": "Preserved numeric value changed: /tracks/7C4583DE-84BD-4808-8043-B884D90B6574/segments/91931480-05DA-4D7C-BE4F-C3153FEEA106/speed"
+      },
+      {
+        "case": "audio-nondefault-value-owner-1",
+        "direction": 0,
+        "accepted": false,
+        "error": "Preserved numeric value changed: /tracks/7C4583DE-84BD-4808-8043-B884D90B6574/segments/91931480-05DA-4D7C-BE4F-C3153FEEA106/speed"
+      },
+      {
+        "case": "audio-nondefault-value-owner-1",
+        "direction": 1,
+        "accepted": false,
+        "error": "Preserved numeric value changed: /tracks/7C4583DE-84BD-4808-8043-B884D90B6574/segments/91931480-05DA-4D7C-BE4F-C3153FEEA106/speed"
+      },
+      {
+        "case": "audio-changed-mode",
+        "direction": 0,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "audio-changed-mode",
+        "direction": 1,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "audio-changed-reference",
+        "direction": 0,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "audio-changed-reference",
+        "direction": 1,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "audio-changed-curve",
+        "direction": 0,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "audio-changed-curve",
+        "direction": 1,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "native-reset-flat-owner-0",
+        "direction": 0,
+        "accepted": true,
+        "error": null
+      },
+      {
+        "case": "native-reset-flat-owner-0",
+        "direction": 1,
+        "accepted": true,
+        "error": null
+      },
+      {
+        "case": "native-reset-flat-owner-1",
+        "direction": 0,
+        "accepted": true,
+        "error": null
+      },
+      {
+        "case": "native-reset-flat-owner-1",
+        "direction": 1,
+        "accepted": true,
+        "error": null
+      },
+      {
+        "case": "synthetic-unverified-explicit-unchanged",
+        "direction": 0,
+        "accepted": true,
+        "error": null
+      },
+      {
+        "case": "synthetic-unverified-explicit-unchanged",
+        "direction": 1,
+        "accepted": true,
+        "error": null
+      },
+      {
+        "case": "synthetic-unverified-missing-owner-0",
+        "direction": 0,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "synthetic-unverified-missing-owner-0",
+        "direction": 1,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "synthetic-unverified-both-missing-owner-0",
+        "direction": 0,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "synthetic-unverified-both-missing-owner-0",
+        "direction": 1,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "synthetic-unverified-missing-owner-1",
+        "direction": 0,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "synthetic-unverified-missing-owner-1",
+        "direction": 1,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "synthetic-unverified-both-missing-owner-1",
+        "direction": 0,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "synthetic-unverified-both-missing-owner-1",
+        "direction": 1,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "synthetic-unverified-explicit-unchanged",
+        "direction": 0,
+        "accepted": true,
+        "error": null
+      },
+      {
+        "case": "synthetic-unverified-explicit-unchanged",
+        "direction": 1,
+        "accepted": true,
+        "error": null
+      },
+      {
+        "case": "synthetic-unverified-missing-owner-0",
+        "direction": 0,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "synthetic-unverified-missing-owner-0",
+        "direction": 1,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "synthetic-unverified-both-missing-owner-0",
+        "direction": 0,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "synthetic-unverified-both-missing-owner-0",
+        "direction": 1,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "synthetic-unverified-missing-owner-1",
+        "direction": 0,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "synthetic-unverified-missing-owner-1",
+        "direction": 1,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "synthetic-unverified-both-missing-owner-1",
+        "direction": 0,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      },
+      {
+        "case": "synthetic-unverified-both-missing-owner-1",
+        "direction": 1,
+        "accepted": false,
+        "error": "Missing speed in an unverified native speed context"
+      }
+    ],
+    "scope": "Independent copies of actual cold-save document; synthetic null/empty mutations are rejection controls only."
+  },
+  "documents": {
+    "source-saved-timeline.json": {
+      "sha256": "68c0fd0692c888520ea689f5a5e18361b626c0566bba6bc32f4b64ff377c6ebc",
+      "selected_speed_fields": [
+        {
+          "kind": "video",
+          "index": 0,
+          "segment_speed": "absent",
+          "source_timerange": {
+            "duration": 2000000
+          },
+          "target_timerange": {
+            "duration": 2000000
+          },
+          "speed_material": {
+            "id": "4BC40098-71CB-4634-BB8E-6B802ED9E253",
+            "type": "speed"
+          }
+        },
+        {
+          "kind": "video",
+          "index": 1,
+          "segment_speed": "absent",
+          "source_timerange": {
+            "duration": 2000000
+          },
+          "target_timerange": {
+            "start": 2000000,
+            "duration": 2000000
+          },
+          "speed_material": {
+            "id": "80BACED1-ED0F-4684-889F-DD7A2C0E7930",
+            "type": "speed"
+          }
+        },
+        {
+          "kind": "video",
+          "index": 2,
+          "segment_speed": "absent",
+          "source_timerange": {
+            "duration": 2000000
+          },
+          "target_timerange": {
+            "start": 4000000,
+            "duration": 2000000
+          },
+          "speed_material": {
+            "id": "FD5BBFC2-674B-4080-871E-8697389F13F0",
+            "type": "speed",
+            "mode": 1,
+            "curve_speed": {
+              "id": "6768730851543880206",
+              "name": "自定义",
+              "speed_points": [
+                {
+                  "x": 0.0,
+                  "y": 1.0
+                },
+                {
+                  "x": 0.25,
+                  "y": 1.0
+                },
+                {
+                  "x": 0.5,
+                  "y": 1.0
+                },
+                {
+                  "x": 0.75,
+                  "y": 1.0
+                },
+                {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "kind": "audio",
+          "index": 0,
+          "segment_speed": "absent",
+          "source_timerange": {
+            "duration": 3000000
+          },
+          "target_timerange": {
+            "duration": 3000000
+          },
+          "speed_material": {
+            "id": "98945D95-713F-4DC4-9D66-0368E2B3F1CA",
+            "type": "speed"
+          }
+        },
+        {
+          "kind": "audio",
+          "index": 1,
+          "segment_speed": 1.5,
+          "source_timerange": {
+            "duration": 4500000
+          },
+          "target_timerange": {
+            "start": 3000000,
+            "duration": 3000000
+          },
+          "speed_material": {
+            "id": "FE70E24C-402F-4D0F-87E3-2879020284CA",
+            "type": "speed",
+            "speed": 1.5
+          }
+        }
+      ]
+    },
+    "clean-source-timeline.json": {
+      "sha256": "97876826924198b730809a939ee44168ae95116aad808891110de610249a6c2c",
+      "selected_speed_fields": [
+        {
+          "kind": "video",
+          "index": 0,
+          "segment_speed": "absent",
+          "source_timerange": {
+            "duration": 2000000
+          },
+          "target_timerange": {
+            "duration": 2000000
+          },
+          "speed_material": {
+            "id": "4BC40098-71CB-4634-BB8E-6B802ED9E253",
+            "type": "speed"
+          }
+        },
+        {
+          "kind": "video",
+          "index": 1,
+          "segment_speed": "absent",
+          "source_timerange": {
+            "duration": 2000000
+          },
+          "target_timerange": {
+            "start": 2000000,
+            "duration": 2000000
+          },
+          "speed_material": {
+            "id": "80BACED1-ED0F-4684-889F-DD7A2C0E7930",
+            "type": "speed"
+          }
+        },
+        {
+          "kind": "video",
+          "index": 2,
+          "segment_speed": "absent",
+          "source_timerange": {
+            "duration": 2000000
+          },
+          "target_timerange": {
+            "start": 4000000,
+            "duration": 2000000
+          },
+          "speed_material": {
+            "id": "FD5BBFC2-674B-4080-871E-8697389F13F0",
+            "type": "speed",
+            "mode": 1,
+            "curve_speed": {
+              "id": "6768730851543880206",
+              "name": "自定义",
+              "speed_points": [
+                {
+                  "x": 0.0,
+                  "y": 1.0
+                },
+                {
+                  "x": 0.25,
+                  "y": 1.0
+                },
+                {
+                  "x": 0.5,
+                  "y": 1.0
+                },
+                {
+                  "x": 0.75,
+                  "y": 1.0
+                },
+                {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "kind": "audio",
+          "index": 0,
+          "segment_speed": "absent",
+          "source_timerange": {
+            "duration": 3000000
+          },
+          "target_timerange": {
+            "duration": 3000000
+          },
+          "speed_material": {
+            "id": "98945D95-713F-4DC4-9D66-0368E2B3F1CA",
+            "type": "speed"
+          }
+        },
+        {
+          "kind": "audio",
+          "index": 1,
+          "segment_speed": 1.5,
+          "source_timerange": {
+            "duration": 4500000
+          },
+          "target_timerange": {
+            "start": 3000000,
+            "duration": 3000000
+          },
+          "speed_material": {
+            "id": "FE70E24C-402F-4D0F-87E3-2879020284CA",
+            "type": "speed",
+            "speed": 1.5
+          }
+        }
+      ]
+    },
+    "clean-first-save-timeline.json": {
+      "sha256": "faf0c6081148141d12c8de3a88fba7dc7be585d0a4fbf5eff4e798b3825b93ba",
+      "selected_speed_fields": [
+        {
+          "kind": "video",
+          "index": 0,
+          "segment_speed": "absent",
+          "source_timerange": {
+            "duration": 2000000
+          },
+          "target_timerange": {
+            "duration": 2000000
+          },
+          "speed_material": {
+            "id": "4BC40098-71CB-4634-BB8E-6B802ED9E253",
+            "type": "speed"
+          }
+        },
+        {
+          "kind": "video",
+          "index": 1,
+          "segment_speed": "absent",
+          "source_timerange": {
+            "duration": 2000000
+          },
+          "target_timerange": {
+            "start": 2000000,
+            "duration": 2000000
+          },
+          "speed_material": {
+            "id": "80BACED1-ED0F-4684-889F-DD7A2C0E7930",
+            "type": "speed"
+          }
+        },
+        {
+          "kind": "video",
+          "index": 2,
+          "segment_speed": "absent",
+          "source_timerange": {
+            "duration": 2000000
+          },
+          "target_timerange": {
+            "start": 4000000,
+            "duration": 2000000
+          },
+          "speed_material": {
+            "id": "FD5BBFC2-674B-4080-871E-8697389F13F0",
+            "type": "speed",
+            "mode": 1,
+            "curve_speed": {
+              "id": "6768730851543880206",
+              "name": "自定义",
+              "speed_points": [
+                {
+                  "x": 0.0,
+                  "y": 1.0
+                },
+                {
+                  "x": 0.25,
+                  "y": 1.0
+                },
+                {
+                  "x": 0.5,
+                  "y": 1.0
+                },
+                {
+                  "x": 0.75,
+                  "y": 1.0
+                },
+                {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "kind": "audio",
+          "index": 0,
+          "segment_speed": "absent",
+          "source_timerange": {
+            "duration": 3000000
+          },
+          "target_timerange": {
+            "duration": 3000000
+          },
+          "speed_material": {
+            "id": "98945D95-713F-4DC4-9D66-0368E2B3F1CA",
+            "type": "speed"
+          }
+        },
+        {
+          "kind": "audio",
+          "index": 1,
+          "segment_speed": 1.5,
+          "source_timerange": {
+            "duration": 4500000
+          },
+          "target_timerange": {
+            "start": 3000000,
+            "duration": 3000000
+          },
+          "speed_material": {
+            "id": "FE70E24C-402F-4D0F-87E3-2879020284CA",
+            "type": "speed",
+            "speed": 1.5
+          }
+        }
+      ]
+    },
+    "clean-cold-save-timeline.json": {
+      "sha256": "188e414ef6886b49412374989f6b58b6ecbcbb357e3aa9090ad0e1e9bfb5943d",
+      "selected_speed_fields": [
+        {
+          "kind": "video",
+          "index": 0,
+          "segment_speed": "absent",
+          "source_timerange": {
+            "duration": 2000000
+          },
+          "target_timerange": {
+            "duration": 2000000
+          },
+          "speed_material": {
+            "id": "4BC40098-71CB-4634-BB8E-6B802ED9E253",
+            "type": "speed"
+          }
+        },
+        {
+          "kind": "video",
+          "index": 1,
+          "segment_speed": "absent",
+          "source_timerange": {
+            "duration": 2000000
+          },
+          "target_timerange": {
+            "start": 2000000,
+            "duration": 2000000
+          },
+          "speed_material": {
+            "id": "80BACED1-ED0F-4684-889F-DD7A2C0E7930",
+            "type": "speed"
+          }
+        },
+        {
+          "kind": "video",
+          "index": 2,
+          "segment_speed": "absent",
+          "source_timerange": {
+            "duration": 2000000
+          },
+          "target_timerange": {
+            "start": 4000000,
+            "duration": 2000000
+          },
+          "speed_material": {
+            "id": "FD5BBFC2-674B-4080-871E-8697389F13F0",
+            "type": "speed",
+            "mode": 1,
+            "curve_speed": {
+              "id": "6768730851543880206",
+              "name": "自定义",
+              "speed_points": [
+                {
+                  "x": 0.0,
+                  "y": 1.0
+                },
+                {
+                  "x": 0.25,
+                  "y": 1.0
+                },
+                {
+                  "x": 0.5,
+                  "y": 1.0
+                },
+                {
+                  "x": 0.75,
+                  "y": 1.0
+                },
+                {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "kind": "audio",
+          "index": 0,
+          "segment_speed": "absent",
+          "source_timerange": {
+            "duration": 3000000
+          },
+          "target_timerange": {
+            "duration": 3000000
+          },
+          "speed_material": {
+            "id": "98945D95-713F-4DC4-9D66-0368E2B3F1CA",
+            "type": "speed"
+          }
+        },
+        {
+          "kind": "audio",
+          "index": 1,
+          "segment_speed": 1.5,
+          "source_timerange": {
+            "duration": 4500000
+          },
+          "target_timerange": {
+            "start": 3000000,
+            "duration": 3000000
+          },
+          "speed_material": {
+            "id": "FE70E24C-402F-4D0F-87E3-2879020284CA",
+            "type": "speed",
+            "speed": 1.5
+          }
+        }
+      ]
+    }
+  },
+  "local_artifact_hashes": {
+    "clean-source-manifest.json": "159f07323b6c367000e0d6f8f22c0ff451a9e0a4d4ada5d429076a36e8581caa",
+    "clean-first-save-files.json": "3aedba7188e1ae7a80cb3c1011874a9dcfc4f37822192e4dd1c2cd7c1c3b86cc",
+    "clean-cold-save-files.json": "8fabe571c36f9c45df7bf46ec7101656db5d583ab814e0ebf4959e2ea7249882",
+    "clean-edit-build/expected-timeline.json": "1af38d2fc9662d101558603401b149dbcb79bc7d327e6302d993e87e8b724384",
+    "target-first-saved-timeline.json": "97876826924198b730809a939ee44168ae95116aad808891110de610249a6c2c",
+    "edit-build/expected-timeline.json": "990e621033c8d769ff095120cfa47b822e4c6c7eb4f9702353b0d4d7a7e6b186",
+    "first-save-failure.json": "f04d20862cee436648f5eaad2121f97e5c9937e17a995df1a809c5db1a3d00af",
+    "ui-events.jsonl": "5619dbdfe4b31545ac35717d890f8dbbbbe775683fd278c7908fff0195f82774"
+  },
+  "compatibility_scope": "Default speed filling requires ordinary video/audio or observed custom video identity with valid nonempty points and an unambiguous speed reference. Missing speed elsewhere is rejected on either side; explicit unchanged speeds remain comparable.",
+  "limitations": [
+    "Local adaptation codec; upstream fixed-codec A/B remains unperformed.",
+    "No new audio curve, arbitrary preset, compound persistence or curve export claim.",
+    "Screenshots, media and full raw draft captures retained locally; summary is selected evidence."
+  ]
+}

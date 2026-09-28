@@ -1,0 +1,651 @@
+{
+  "experiment_date": "2026-09-22",
+  "rechecked_date": "2026-09-22",
+  "source": "Separate local time-mapping research; this supplement rechecks artifacts, does not rerun native exports.",
+  "runtime": {
+    "status": "ok",
+    "app_version": "11.5.0",
+    "app_build": "11.5.0",
+    "primary_version": "11.5.0",
+    "compatibility_mode": false,
+    "bundle_id": "com.lemon.lvpro",
+    "libvideoeditor_sha256": "2041482a1aaeffa4d8bd69b836f8cf38807aaad8021bca410d567c59af3bccfa",
+    "runtime_profile": "jy14-headless-macos-11.5.0",
+    "codec_sha256": "ac202d8d28f15a4c4d512c7bdefa6e961320a6718407bbedc1338cb6ce62c0b0",
+    "runtime_hashes_verified": true,
+    "network_called": false,
+    "full_signature_check": "passed",
+    "team_identifier": "X2JNK7LY8J"
+  },
+  "archive_original_sha256": "ac6edbbdf07c4fb949dccd6f574fea16604d3874660c3619f84d6e98f7d6689e",
+  "manifest_files_rehashed": 115,
+  "frame_table_rows_rechecked": {
+    "mapped-explicit-y": 360,
+    "mapped-automatic-y": 360,
+    "unconverted-local-x": 360,
+    "fractional-paired": 240
+  },
+  "export_python_algorithm_matches_candidate": true,
+  "export_cpp_matches_candidate": true,
+  "candidate_export_python_difference": "Docstring corrects the source-time offset explanation; AST otherwise identical.",
+  "fixture_scope": "Native-API-derived, parser/restoration-checked synthetic timelines; not UI-saved inputs or publicly supported generator output.",
+  "results": {
+    "source_validator": {
+      "frames": 180,
+      "all_180_source_frame_ids_exact": true
+    },
+    "thresholds_fixed_before_export": {
+      "expected_frames": 360,
+      "fps": 30,
+      "width": 640,
+      "height": 360,
+      "max_xy_error_px": 1,
+      "max_y_span_px": 1,
+      "max_pts_error_seconds": 1e-05,
+      "max_source_frame_quantization_error": 1,
+      "source_frame_encoding": "8 least-significant-bit-first white/black cells, x=16+12*b..27+12*b, y=20..51 in 128x72 source",
+      "planned_keyframes_target_local_us": [
+        [
+          0,
+          -0.6
+        ],
+        [
+          500000,
+          -0.1
+        ],
+        [
+          2000000,
+          0.6
+        ]
+      ],
+      "expected_x_pixel_formula": "320 * (1 + piecewise_linear_value) - 0.5",
+      "expected_y_center_px": 107.5,
+      "positive_variants": [
+        "mapped-explicit-y",
+        "mapped-automatic-y"
+      ],
+      "negative_variant": "unconverted-local-x"
+    },
+    "variants": {
+      "mapped-explicit-y": {
+        "checks": {
+          "frames_exact_360": true,
+          "all_pts_correct": true,
+          "all_frames_visible": true,
+          "barcodes_unambiguous": true,
+          "native_parser_preserves_keyframes": true,
+          "native_restore_preserves_keyframes": true,
+          "native_parser_preserves_timing": true,
+          "native_restore_preserves_timing": true,
+          "export_strict_acceptance_passed": true
+        },
+        "cases": [
+          {
+            "name": "control",
+            "frames": 60,
+            "visible": true,
+            "x_max_error_px": 0.7444444444444116,
+            "y_span_px": 0.0,
+            "y_max_error_px": 0.0,
+            "source_frame_max_error": 0.0,
+            "actual_source_frame_range": [
+              0,
+              59
+            ],
+            "x_first_last": [
+              127.5,
+              507.0
+            ],
+            "x_mid_keyframe": 287.5,
+            "passed": true
+          },
+          {
+            "name": "trim",
+            "frames": 60,
+            "visible": true,
+            "x_max_error_px": 0.7444444444444116,
+            "y_span_px": 0.0,
+            "y_max_error_px": 0.0,
+            "source_frame_max_error": 0.0,
+            "actual_source_frame_range": [
+              30,
+              89
+            ],
+            "x_first_last": [
+              127.5,
+              507.0
+            ],
+            "x_mid_keyframe": 287.5,
+            "passed": true
+          },
+          {
+            "name": "fast",
+            "frames": 60,
+            "visible": true,
+            "x_max_error_px": 0.7444444444444116,
+            "y_span_px": 0.0,
+            "y_max_error_px": 0.0,
+            "source_frame_max_error": 1.0,
+            "actual_source_frame_range": [
+              0,
+              117
+            ],
+            "x_first_last": [
+              127.5,
+              507.0
+            ],
+            "x_mid_keyframe": 287.5,
+            "passed": true
+          },
+          {
+            "name": "slow",
+            "frames": 60,
+            "visible": true,
+            "x_max_error_px": 0.7444444444444116,
+            "y_span_px": 0.0,
+            "y_max_error_px": 0.0,
+            "source_frame_max_error": 0.5,
+            "actual_source_frame_range": [
+              0,
+              30
+            ],
+            "x_first_last": [
+              127.5,
+              507.0
+            ],
+            "x_mid_keyframe": 287.5,
+            "passed": true
+          },
+          {
+            "name": "trim-fast",
+            "frames": 60,
+            "visible": true,
+            "x_max_error_px": 0.7444444444444116,
+            "y_span_px": 0.0,
+            "y_max_error_px": 0.0,
+            "source_frame_max_error": 1.0,
+            "actual_source_frame_range": [
+              30,
+              147
+            ],
+            "x_first_last": [
+              127.5,
+              507.0
+            ],
+            "x_mid_keyframe": 287.5,
+            "passed": true
+          },
+          {
+            "name": "trim-slow",
+            "frames": 60,
+            "visible": true,
+            "x_max_error_px": 0.7444444444444116,
+            "y_span_px": 0.0,
+            "y_max_error_px": 0.0,
+            "source_frame_max_error": 0.5,
+            "actual_source_frame_range": [
+              60,
+              90
+            ],
+            "x_first_last": [
+              127.5,
+              507.0
+            ],
+            "x_mid_keyframe": 287.5,
+            "passed": true
+          }
+        ],
+        "all_checks_pass": true
+      },
+      "mapped-automatic-y": {
+        "checks": {
+          "frames_exact_360": true,
+          "all_pts_correct": true,
+          "all_frames_visible": true,
+          "barcodes_unambiguous": true,
+          "native_parser_preserves_keyframes": true,
+          "native_restore_preserves_keyframes": true,
+          "native_parser_preserves_timing": true,
+          "native_restore_preserves_timing": true,
+          "export_strict_acceptance_passed": true
+        },
+        "cases": [
+          {
+            "name": "control",
+            "frames": 60,
+            "visible": true,
+            "x_max_error_px": 0.7444444444444116,
+            "y_span_px": 0.0,
+            "y_max_error_px": 0.0,
+            "source_frame_max_error": 0.0,
+            "actual_source_frame_range": [
+              0,
+              59
+            ],
+            "x_first_last": [
+              127.5,
+              507.0
+            ],
+            "x_mid_keyframe": 287.5,
+            "passed": true
+          },
+          {
+            "name": "trim",
+            "frames": 60,
+            "visible": true,
+            "x_max_error_px": 0.7444444444444116,
+            "y_span_px": 0.0,
+            "y_max_error_px": 0.0,
+            "source_frame_max_error": 0.0,
+            "actual_source_frame_range": [
+              30,
+              89
+            ],
+            "x_first_last": [
+              127.5,
+              507.0
+            ],
+            "x_mid_keyframe": 287.5,
+            "passed": true
+          },
+          {
+            "name": "fast",
+            "frames": 60,
+            "visible": true,
+            "x_max_error_px": 0.7444444444444116,
+            "y_span_px": 0.0,
+            "y_max_error_px": 0.0,
+            "source_frame_max_error": 1.0,
+            "actual_source_frame_range": [
+              0,
+              117
+            ],
+            "x_first_last": [
+              127.5,
+              507.0
+            ],
+            "x_mid_keyframe": 287.5,
+            "passed": true
+          },
+          {
+            "name": "slow",
+            "frames": 60,
+            "visible": true,
+            "x_max_error_px": 0.7444444444444116,
+            "y_span_px": 0.0,
+            "y_max_error_px": 0.0,
+            "source_frame_max_error": 0.5,
+            "actual_source_frame_range": [
+              0,
+              30
+            ],
+            "x_first_last": [
+              127.5,
+              507.0
+            ],
+            "x_mid_keyframe": 287.5,
+            "passed": true
+          },
+          {
+            "name": "trim-fast",
+            "frames": 60,
+            "visible": true,
+            "x_max_error_px": 0.7444444444444116,
+            "y_span_px": 0.0,
+            "y_max_error_px": 0.0,
+            "source_frame_max_error": 1.0,
+            "actual_source_frame_range": [
+              30,
+              147
+            ],
+            "x_first_last": [
+              127.5,
+              507.0
+            ],
+            "x_mid_keyframe": 287.5,
+            "passed": true
+          },
+          {
+            "name": "trim-slow",
+            "frames": 60,
+            "visible": true,
+            "x_max_error_px": 0.7444444444444116,
+            "y_span_px": 0.0,
+            "y_max_error_px": 0.0,
+            "source_frame_max_error": 0.5,
+            "actual_source_frame_range": [
+              60,
+              90
+            ],
+            "x_first_last": [
+              127.5,
+              507.0
+            ],
+            "x_mid_keyframe": 287.5,
+            "passed": true
+          }
+        ],
+        "all_checks_pass": true
+      },
+      "unconverted-local-x": {
+        "checks": {
+          "frames_exact_360": true,
+          "all_pts_correct": true,
+          "all_frames_visible": true,
+          "barcodes_unambiguous": true,
+          "native_parser_preserves_keyframes": true,
+          "native_restore_preserves_keyframes": true,
+          "native_parser_preserves_timing": true,
+          "native_restore_preserves_timing": true,
+          "export_strict_acceptance_passed": true
+        },
+        "cases": [
+          {
+            "name": "control",
+            "frames": 60,
+            "visible": true,
+            "x_max_error_px": 0.7444444444444116,
+            "y_span_px": 0.0,
+            "y_max_error_px": 0.0,
+            "source_frame_max_error": 0.0,
+            "actual_source_frame_range": [
+              0,
+              59
+            ],
+            "x_first_last": [
+              127.5,
+              507.0
+            ],
+            "x_mid_keyframe": 287.5,
+            "passed": true
+          },
+          {
+            "name": "trim",
+            "frames": 60,
+            "visible": true,
+            "x_max_error_px": 160.0,
+            "y_span_px": 0.0,
+            "y_max_error_px": 0.0,
+            "source_frame_max_error": 0.0,
+            "actual_source_frame_range": [
+              30,
+              89
+            ],
+            "x_first_last": [
+              287.5,
+              511.5
+            ],
+            "x_mid_keyframe": 399.5,
+            "passed": false
+          },
+          {
+            "name": "fast",
+            "frames": 60,
+            "visible": true,
+            "x_max_error_px": 149.33333333333337,
+            "y_span_px": 0.0,
+            "y_max_error_px": 0.0,
+            "source_frame_max_error": 1.0,
+            "actual_source_frame_range": [
+              0,
+              117
+            ],
+            "x_first_last": [
+              127.5,
+              511.5
+            ],
+            "x_mid_keyframe": 362.5,
+            "passed": false
+          },
+          {
+            "name": "slow",
+            "frames": 60,
+            "visible": true,
+            "x_max_error_px": 80.0,
+            "y_span_px": 0.0,
+            "y_max_error_px": 0.0,
+            "source_frame_max_error": 0.5,
+            "actual_source_frame_range": [
+              0,
+              30
+            ],
+            "x_first_last": [
+              127.5,
+              504.5
+            ],
+            "x_mid_keyframe": 207.5,
+            "passed": false
+          },
+          {
+            "name": "trim-fast",
+            "frames": 60,
+            "visible": true,
+            "x_max_error_px": 224.0,
+            "y_span_px": 0.0,
+            "y_max_error_px": 0.0,
+            "source_frame_max_error": 1.0,
+            "actual_source_frame_range": [
+              30,
+              147
+            ],
+            "x_first_last": [
+              287.5,
+              511.5
+            ],
+            "x_mid_keyframe": 511.5,
+            "passed": false
+          },
+          {
+            "name": "trim-slow",
+            "frames": 60,
+            "visible": true,
+            "x_max_error_px": 384.0,
+            "y_span_px": 0.0,
+            "y_max_error_px": 0.0,
+            "source_frame_max_error": 1.0,
+            "actual_source_frame_range": [
+              61,
+              90
+            ],
+            "x_first_last": [
+              511.5,
+              511.5
+            ],
+            "x_mid_keyframe": 511.5,
+            "passed": false
+          }
+        ],
+        "all_checks_pass": false
+      }
+    },
+    "automatic_vs_explicit": {
+      "max_x_difference_px": 0.0,
+      "max_y_difference_px": 0.0,
+      "source_frames_identical": true,
+      "passed": true
+    },
+    "positive_pass": true,
+    "negative_control_detected": true
+  },
+  "fractional_results": {
+    "checks": {
+      "frames_240": true,
+      "all_pts_correct": true,
+      "all_frames_visible": true,
+      "all_barcodes_unambiguous": true,
+      "keyframes_preserved_by_parser": true,
+      "keyframes_preserved_by_restore": true,
+      "timing_preserved_by_parser": true,
+      "timing_preserved_by_restore": true,
+      "strict_native_acceptance_passed": true
+    },
+    "cases": [
+      {
+        "index": 0,
+        "source_start_us": 0,
+        "speed": 1.5,
+        "automatic_y": false,
+        "frames": 60,
+        "x_max_error_px": 0.7444444444444116,
+        "y_span_px": 0.0,
+        "y_max_error_px": 0.0,
+        "source_frame_max_error": 1.0,
+        "source_frame_range": [
+          0,
+          88
+        ],
+        "passed": true
+      },
+      {
+        "index": 1,
+        "source_start_us": 1000000,
+        "speed": 1.5,
+        "automatic_y": false,
+        "frames": 60,
+        "x_max_error_px": 0.7444444444444116,
+        "y_span_px": 0.0,
+        "y_max_error_px": 0.0,
+        "source_frame_max_error": 1.0,
+        "source_frame_range": [
+          30,
+          118
+        ],
+        "passed": true
+      },
+      {
+        "index": 2,
+        "source_start_us": 0,
+        "speed": 1.5,
+        "automatic_y": true,
+        "frames": 60,
+        "x_max_error_px": 0.7444444444444116,
+        "y_span_px": 0.0,
+        "y_max_error_px": 0.0,
+        "source_frame_max_error": 1.0,
+        "source_frame_range": [
+          0,
+          88
+        ],
+        "passed": true
+      },
+      {
+        "index": 3,
+        "source_start_us": 1000000,
+        "speed": 1.5,
+        "automatic_y": true,
+        "frames": 60,
+        "x_max_error_px": 0.7444444444444116,
+        "y_span_px": 0.0,
+        "y_max_error_px": 0.0,
+        "source_frame_max_error": 1.0,
+        "source_frame_range": [
+          30,
+          118
+        ],
+        "passed": true
+      }
+    ],
+    "automatic_vs_explicit_max_difference": {
+      "x": 0.0,
+      "y": 0.0,
+      "source": 0
+    },
+    "passed": true,
+    "native_boundary_samples": [
+      {
+        "timeline_local_us": 0,
+        "native_keyframe_offset_us": 0,
+        "linear_formula_us": 0,
+        "diff_us": 0,
+        "inverse_timeline_us": 0
+      },
+      {
+        "timeline_local_us": 333,
+        "native_keyframe_offset_us": 0,
+        "linear_formula_us": 499,
+        "diff_us": -499,
+        "inverse_timeline_us": 0
+      },
+      {
+        "timeline_local_us": 999,
+        "native_keyframe_offset_us": 0,
+        "linear_formula_us": 1498,
+        "diff_us": -1498,
+        "inverse_timeline_us": 0
+      },
+      {
+        "timeline_local_us": 1000,
+        "native_keyframe_offset_us": 1500,
+        "linear_formula_us": 1500,
+        "diff_us": 0,
+        "inverse_timeline_us": 1000
+      },
+      {
+        "timeline_local_us": 1001,
+        "native_keyframe_offset_us": 1501,
+        "linear_formula_us": 1501,
+        "diff_us": 0,
+        "inverse_timeline_us": 1000
+      },
+      {
+        "timeline_local_us": 33333,
+        "native_keyframe_offset_us": 49999,
+        "linear_formula_us": 49999,
+        "diff_us": 0,
+        "inverse_timeline_us": 33332
+      },
+      {
+        "timeline_local_us": 500000,
+        "native_keyframe_offset_us": 750000,
+        "linear_formula_us": 750000,
+        "diff_us": 0,
+        "inverse_timeline_us": 500000
+      },
+      {
+        "timeline_local_us": 1000000,
+        "native_keyframe_offset_us": 1500000,
+        "linear_formula_us": 1500000,
+        "diff_us": 0,
+        "inverse_timeline_us": 1000000
+      },
+      {
+        "timeline_local_us": 1999000,
+        "native_keyframe_offset_us": 2998500,
+        "linear_formula_us": 2998500,
+        "diff_us": 0,
+        "inverse_timeline_us": 1999000
+      },
+      {
+        "timeline_local_us": 1999001,
+        "native_keyframe_offset_us": 3000000,
+        "linear_formula_us": 2998501,
+        "diff_us": 1499,
+        "inverse_timeline_us": 2000000
+      },
+      {
+        "timeline_local_us": 1999999,
+        "native_keyframe_offset_us": 3000000,
+        "linear_formula_us": 2999998,
+        "diff_us": 2,
+        "inverse_timeline_us": 2000000
+      },
+      {
+        "timeline_local_us": 2000000,
+        "native_keyframe_offset_us": 3000000,
+        "linear_formula_us": 3000000,
+        "diff_us": 0,
+        "inverse_timeline_us": 2000000
+      }
+    ]
+  },
+  "raw_result_sha256": {
+    "results.json": "110c9e5fcb97d1a32edc98ce9825a8a92aeb4e2db7de22e0e151c7b68d562e0b",
+    "fractional-results.json": "a16a6d28942d2072a3244f7d1102041ce40bd9e08dc318d0be2c4a3c3df13047",
+    "native-mapping.csv": "e6360fb5dd74ea771bbd95a76dd8c4f533370e183937c47170beb8adf98e6540",
+    "fractional-mapping.csv": "3f9cb2f674689a8bfcd9d4027de9bda6e67c29172c1a5d84bcfc216db3e6b6c4",
+    "predeclared-acceptance.json": "71ca4845afd2630fb2fc1446baeebcac185ab0f2348de5a8b2b7ba4414bf6419",
+    "final-integrity.json": "5617bff058d4d314c3016bcc3a84f837ca2663cd856f7f75426fb4ff563de2b5"
+  },
+  "generator_trim_speed_animation_restriction_unchanged": true,
+  "upstream_fixed_codec_acceptance": "not completed"
+}

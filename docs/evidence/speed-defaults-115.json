@@ -1,0 +1,393 @@
+{
+  "recorded_native_experiment_date": "2026-09-21",
+  "artifact_recheck_date": "2026-09-22",
+  "implementation_base": "6f9c563df62c0c516db7d6fdad727828e1e7c91c",
+  "original_manifest_sha256": "6d4cd7a81c9d53d04fdec645514ecc5f6f303f4fbec724597d98854a7011032e",
+  "original_manifest_entries_verified": 55,
+  "native_roundtrip_source_sha256": "ec3fc0d00ea95f71c144d41f9e458803de505c747a532fa57817f0b1aa87f488",
+  "runtime": {
+    "app_version": "11.5.0",
+    "runtime_profile": "jy14-headless-macos-11.5.0",
+    "libvideoeditor_sha256": "2041482a1aaeffa4d8bd69b836f8cf38807aaad8021bca410d567c59af3bccfa",
+    "codec_sha256": "ac202d8d28f15a4c4d512c7bdefa6e961320a6718407bbedc1338cb6ce62c0b0"
+  },
+  "new_native_execution_during_recheck": false,
+  "scope": "Historical native parse/serialize facts are unchanged. Current comparator now rejects missing speed in mode=1 null/empty and synthetic-curve identity contexts, including identical missing inputs. Only ordinary historical inputs retain default compatibility. Captured native outputs already contain explicit speed=1, so their unchanged pairs still compare equal without default filling. Native custom video UI evidence is in native-save-115.json; ordinary audio UI evidence is in audio-save-115.json. Offline replay does not execute native code.",
+  "cases": [
+    {
+      "case": "ordinary",
+      "mode": 0,
+      "curve_speed": null,
+      "input_difference_only_material_speed": true,
+      "explicit_and_omitted_native_bytes_equal": true,
+      "nondefault_native_bytes_differ": true,
+      "original_sha256": {
+        "explicit": {
+          "input": "0b3799fe79ef222ed05b014d374b86c2a770ec1f241251e20b1766c52da5807f",
+          "native": "f4fe0595ec08269b3f8145d42f5434b4feea9b8256ef7256457c05ced52f4f5d"
+        },
+        "omitted": {
+          "input": "4519be42258e0d856252453fdcfffa0d1fdd354c4d2aabf3a810953ae0d541c9",
+          "native": "f4fe0595ec08269b3f8145d42f5434b4feea9b8256ef7256457c05ced52f4f5d"
+        },
+        "nondefault": {
+          "input": "e9df75b8fc13662c61fba518925ade02154e08bf902ea38462d24af8824c7877",
+          "native": "50a7aff824cef349b01cded92548a0584a80327b7b5962ff770809818739c3e7"
+        }
+      },
+      "previous_candidate_comparator_replay": {
+        "explicit_vs_omitted_both_directions": "accepted",
+        "nondefault_vs_omitted_both_directions": "rejected",
+        "replayed_inputs": [
+          "original synthetic JSON",
+          "historical native output JSON"
+        ]
+      },
+      "current_comparator_replay": [
+        {
+          "source": "input",
+          "pair": "explicit-vs-omitted",
+          "direction": 0,
+          "accepted": true,
+          "error": null
+        },
+        {
+          "source": "input",
+          "pair": "explicit-vs-omitted",
+          "direction": 1,
+          "accepted": true,
+          "error": null
+        },
+        {
+          "source": "input",
+          "pair": "nondefault-vs-omitted",
+          "direction": 0,
+          "accepted": false,
+          "error": "Preserved numeric value changed: /materials/speeds/video-speed/speed"
+        },
+        {
+          "source": "input",
+          "pair": "nondefault-vs-omitted",
+          "direction": 1,
+          "accepted": false,
+          "error": "Preserved numeric value changed: /materials/speeds/video-speed/speed"
+        },
+        {
+          "source": "native",
+          "pair": "explicit-vs-omitted",
+          "direction": 0,
+          "accepted": true,
+          "error": null
+        },
+        {
+          "source": "native",
+          "pair": "explicit-vs-omitted",
+          "direction": 1,
+          "accepted": true,
+          "error": null
+        },
+        {
+          "source": "native",
+          "pair": "nondefault-vs-omitted",
+          "direction": 0,
+          "accepted": false,
+          "error": "Preserved numeric value changed: /materials/speeds/video-speed/speed"
+        },
+        {
+          "source": "native",
+          "pair": "nondefault-vs-omitted",
+          "direction": 1,
+          "accepted": false,
+          "error": "Preserved numeric value changed: /materials/speeds/video-speed/speed"
+        }
+      ]
+    },
+    {
+      "case": "mode_one",
+      "mode": 1,
+      "curve_speed": null,
+      "input_difference_only_material_speed": true,
+      "explicit_and_omitted_native_bytes_equal": true,
+      "nondefault_native_bytes_differ": true,
+      "original_sha256": {
+        "explicit": {
+          "input": "b863c37293ab90b14ddd3ce55d3227c82d455c412ef74d5c9a902b6a83e9f62c",
+          "native": "77cb4997c690763fc4d0e1563682ff78c9a779cf3e5d7efa3d23a018a4032c12"
+        },
+        "omitted": {
+          "input": "c6789ca835235b00fc334112ad013e451442f3f9142ce2f47545c7edfeec8d29",
+          "native": "77cb4997c690763fc4d0e1563682ff78c9a779cf3e5d7efa3d23a018a4032c12"
+        },
+        "nondefault": {
+          "input": "f7c552a128d06eac515ae7937c29fa9c6ed3756b0d0826c9b5c00a7aae75785e",
+          "native": "c4e85ad52ddaea8b40ee4e011d29fbf2b65b6ece3b47f314d772819f989f25e9"
+        }
+      },
+      "previous_candidate_comparator_replay": {
+        "explicit_vs_omitted_both_directions": "accepted",
+        "nondefault_vs_omitted_both_directions": "rejected",
+        "replayed_inputs": [
+          "original synthetic JSON",
+          "historical native output JSON"
+        ]
+      },
+      "current_comparator_replay": [
+        {
+          "source": "input",
+          "pair": "explicit-vs-omitted",
+          "direction": 0,
+          "accepted": false,
+          "error": "Missing speed in an unverified native speed context"
+        },
+        {
+          "source": "input",
+          "pair": "explicit-vs-omitted",
+          "direction": 1,
+          "accepted": false,
+          "error": "Missing speed in an unverified native speed context"
+        },
+        {
+          "source": "input",
+          "pair": "nondefault-vs-omitted",
+          "direction": 0,
+          "accepted": false,
+          "error": "Missing speed in an unverified native speed context"
+        },
+        {
+          "source": "input",
+          "pair": "nondefault-vs-omitted",
+          "direction": 1,
+          "accepted": false,
+          "error": "Missing speed in an unverified native speed context"
+        },
+        {
+          "source": "native",
+          "pair": "explicit-vs-omitted",
+          "direction": 0,
+          "accepted": true,
+          "error": null
+        },
+        {
+          "source": "native",
+          "pair": "explicit-vs-omitted",
+          "direction": 1,
+          "accepted": true,
+          "error": null
+        },
+        {
+          "source": "native",
+          "pair": "nondefault-vs-omitted",
+          "direction": 0,
+          "accepted": false,
+          "error": "Preserved numeric value changed: /materials/speeds/video-speed/speed"
+        },
+        {
+          "source": "native",
+          "pair": "nondefault-vs-omitted",
+          "direction": 1,
+          "accepted": false,
+          "error": "Preserved numeric value changed: /materials/speeds/video-speed/speed"
+        }
+      ]
+    },
+    {
+      "case": "curve_empty",
+      "mode": 1,
+      "curve_speed": {
+        "id": "synthetic-curve",
+        "name": "test",
+        "source_platform": 0,
+        "speed_points": []
+      },
+      "input_difference_only_material_speed": true,
+      "explicit_and_omitted_native_bytes_equal": true,
+      "nondefault_native_bytes_differ": true,
+      "original_sha256": {
+        "explicit": {
+          "input": "84e799fa8a1cd4e1de883f016fa457e932753f6846f89c0ef1a10a0699cd8d69",
+          "native": "bc453e4d25c7f7372ab9557cd16c3ea06eb2fd87f6cb6ff29d58a74eb7c97644"
+        },
+        "omitted": {
+          "input": "b247b1ae1763450812f9305e7ff3a4d9605cabdfea739623532b3fb78ee61a92",
+          "native": "bc453e4d25c7f7372ab9557cd16c3ea06eb2fd87f6cb6ff29d58a74eb7c97644"
+        },
+        "nondefault": {
+          "input": "3cc58b9ca5a5421e954741cfc80e92b1b6aee409ea14e7bda9869eeb54c8acb7",
+          "native": "2b37b88371ab564458cc8e080d73a8aee3212ee1ebfc045c877713a1d867f0b2"
+        }
+      },
+      "previous_candidate_comparator_replay": {
+        "explicit_vs_omitted_both_directions": "accepted",
+        "nondefault_vs_omitted_both_directions": "rejected",
+        "replayed_inputs": [
+          "original synthetic JSON",
+          "historical native output JSON"
+        ]
+      },
+      "current_comparator_replay": [
+        {
+          "source": "input",
+          "pair": "explicit-vs-omitted",
+          "direction": 0,
+          "accepted": false,
+          "error": "Missing speed in an unverified native speed context"
+        },
+        {
+          "source": "input",
+          "pair": "explicit-vs-omitted",
+          "direction": 1,
+          "accepted": false,
+          "error": "Missing speed in an unverified native speed context"
+        },
+        {
+          "source": "input",
+          "pair": "nondefault-vs-omitted",
+          "direction": 0,
+          "accepted": false,
+          "error": "Missing speed in an unverified native speed context"
+        },
+        {
+          "source": "input",
+          "pair": "nondefault-vs-omitted",
+          "direction": 1,
+          "accepted": false,
+          "error": "Missing speed in an unverified native speed context"
+        },
+        {
+          "source": "native",
+          "pair": "explicit-vs-omitted",
+          "direction": 0,
+          "accepted": true,
+          "error": null
+        },
+        {
+          "source": "native",
+          "pair": "explicit-vs-omitted",
+          "direction": 1,
+          "accepted": true,
+          "error": null
+        },
+        {
+          "source": "native",
+          "pair": "nondefault-vs-omitted",
+          "direction": 0,
+          "accepted": false,
+          "error": "Preserved numeric value changed: /materials/speeds/video-speed/speed"
+        },
+        {
+          "source": "native",
+          "pair": "nondefault-vs-omitted",
+          "direction": 1,
+          "accepted": false,
+          "error": "Preserved numeric value changed: /materials/speeds/video-speed/speed"
+        }
+      ]
+    },
+    {
+      "case": "curve_points",
+      "mode": 1,
+      "curve_speed": {
+        "id": "synthetic-curve",
+        "name": "test",
+        "source_platform": 0,
+        "speed_points": [
+          {
+            "x": 0.0,
+            "y": 1.0
+          },
+          {
+            "x": 0.5,
+            "y": 2.0
+          },
+          {
+            "x": 1.0,
+            "y": 1.0
+          }
+        ]
+      },
+      "input_difference_only_material_speed": true,
+      "explicit_and_omitted_native_bytes_equal": true,
+      "nondefault_native_bytes_differ": true,
+      "original_sha256": {
+        "explicit": {
+          "input": "55e3133df2b1a966b65bd7f900601728b9b973b0de3f90381b33a795d8160eaf",
+          "native": "b5e04d85cd1a530ab306074178b974ad78b7b9b174e140ce93064e73c698a6ad"
+        },
+        "omitted": {
+          "input": "9089e2aa276d6208000b1a97646337f8ad6b200b863e2b212146362d93ba061e",
+          "native": "b5e04d85cd1a530ab306074178b974ad78b7b9b174e140ce93064e73c698a6ad"
+        },
+        "nondefault": {
+          "input": "78904daa3bb42d86a14fa86c966737c6b0747517f15231d3c598a8686ea90aa3",
+          "native": "1fd6072281dc616fe00a439aaafa19f79f0533fbb94190bd60f5f61c991ca33e"
+        }
+      },
+      "previous_candidate_comparator_replay": {
+        "explicit_vs_omitted_both_directions": "accepted",
+        "nondefault_vs_omitted_both_directions": "rejected",
+        "replayed_inputs": [
+          "original synthetic JSON",
+          "historical native output JSON"
+        ]
+      },
+      "current_comparator_replay": [
+        {
+          "source": "input",
+          "pair": "explicit-vs-omitted",
+          "direction": 0,
+          "accepted": false,
+          "error": "Missing speed in an unverified native speed context"
+        },
+        {
+          "source": "input",
+          "pair": "explicit-vs-omitted",
+          "direction": 1,
+          "accepted": false,
+          "error": "Missing speed in an unverified native speed context"
+        },
+        {
+          "source": "input",
+          "pair": "nondefault-vs-omitted",
+          "direction": 0,
+          "accepted": false,
+          "error": "Missing speed in an unverified native speed context"
+        },
+        {
+          "source": "input",
+          "pair": "nondefault-vs-omitted",
+          "direction": 1,
+          "accepted": false,
+          "error": "Missing speed in an unverified native speed context"
+        },
+        {
+          "source": "native",
+          "pair": "explicit-vs-omitted",
+          "direction": 0,
+          "accepted": true,
+          "error": null
+        },
+        {
+          "source": "native",
+          "pair": "explicit-vs-omitted",
+          "direction": 1,
+          "accepted": true,
+          "error": null
+        },
+        {
+          "source": "native",
+          "pair": "nondefault-vs-omitted",
+          "direction": 0,
+          "accepted": false,
+          "error": "Preserved numeric value changed: /materials/speeds/video-speed/speed"
+        },
+        {
+          "source": "native",
+          "pair": "nondefault-vs-omitted",
+          "direction": 1,
+          "accepted": false,
+          "error": "Preserved numeric value changed: /materials/speeds/video-speed/speed"
+        }
+      ]
+    }
+  ]
+}

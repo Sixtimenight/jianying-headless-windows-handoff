@@ -1,0 +1,58 @@
+{
+  "schema": "jianying-headless-bridge-source/v1",
+  "source_files": {
+    "jy14_codec.cpp": "982f2fbf0f394e0992f8e38305d17354e534c3b64489cd571c6a525f16489a2c",
+    "EncryptUtil.h": "8a5c4c6aabbd52c27ea9057bc230afb383a8784f1478a6f7894c478b12c50f62",
+    "runtime_io.py": "487cf8c65bddad2ecdb351b16996d923bd6bcc6861dba12e801f679821b4ef70"
+  },
+  "expected_codec_sha256": "b6533eb5eb1eea58dfa74fb1d16d3bb580970fe881f587605d358af1745f971d",
+  "official_library_distributed": false,
+  "runtime_io_origin": {
+    "module": "project-local 11.4 IO helper",
+    "sha256": "5df5f05700ff562790c8b43a45719dc58443ec150131922300e8ac1bb4057fcc",
+    "selection": "AST dependency closure of the eight required IO operations; function bodies preserved",
+    "definitions": [
+      "APP_BUNDLE",
+      "ApplyError",
+      "CODEC_PATH",
+      "COMMAND_TIMEOUT_SECONDS",
+      "FileSnapshot",
+      "JsonObject",
+      "MAIN_EXECUTABLE_RELATIVE",
+      "MAX_METADATA_PLAINTEXT_BYTES",
+      "MAX_REGULAR_FILE_BYTES",
+      "READ_CHUNK_SIZE",
+      "REQUIRED_CODEC_SHA256",
+      "WORK_DIR",
+      "_absolute_lexical",
+      "_acquire_directory_transaction_lock",
+      "_decrypt_metadata_in_memory",
+      "_directory_identity",
+      "_directory_open_flags",
+      "_encrypt_metadata_from_memory",
+      "_ensure_editor_closed",
+      "_hash_file",
+      "_metadata_identity",
+      "_open_directory_secure",
+      "_open_regular_readonly",
+      "_parse_strict_json",
+      "_process_rows",
+      "_read_regular_bytes",
+      "_release_directory_transaction_lock",
+      "_revalidate_snapshot",
+      "_safe_environment",
+      "_snapshot_file",
+      "_tool_pin",
+      "_write_all"
+    ]
+  },
+  "reproduction_environment": {
+    "operating_system": "macOS 26.5.1 (25F80)",
+    "architecture": "arm64",
+    "compiler": "Apple clang 21.0.0 (clang-2100.1.1.101)",
+    "macos_sdk": "26.5",
+    "binary_minimum_macos": "26.0",
+    "other_toolchains": "not-accepted-unless-output-matches-the-existing-pinned-hash"
+  },
+  "legacy_capture_manifest_sha256": "2fea820b26d503940526c345ce8e9bd87c25f0c1c8b1c4a02aa8edba317e33dd"
+}
